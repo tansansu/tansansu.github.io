@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xsl:stylesheet [<!ENTITY mdash "&#x2014;">]>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">tansansu</title>
+  <link type="application/atom+xml" href="/feed.xml" rel="self"/>
+  <link type="text/html" href="" rel="alternate"/>
+  <updated>2015-08-16T16:54:17+09:00</updated>
+  <id>/all_feed</id>
+  <author>
+    <name>tansansu</name>
+  </author>
+
+  
+  <entry>
+    <title>Exploratory Data Analysis Quiz#2</title>
+    <link href="/2015/06/Exploratory-Data-Analysis-Quiz%232/"/>
+    <updated>2015-06-21T00:00:00+09:00</updated>
+    <id>/2015/06/Exploratory-Data-Analysis-Quiz#2</id>
+    <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+&lt;body&gt;
+
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 1&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;Under the lattice graphics system, what do the primary plotting functions like xyplot() and bwplot() return?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;an object of class &quot;trellis&quot;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;0.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;nothing; only a plot is made&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;an object of class &quot;plot&quot;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;an object of class &quot;lattice&quot;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 2&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;What is produced by the following code?
+&lt;pre style=&quot;box-sizing: border-box; padding: 10px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 13px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.14902);&quot;&gt;
+library(nlme)
+library(lattice)
+xyplot(weight ~ Time | Diet, BodyWeight)
+
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;A set of 16 panels showing the relationship between weight and time for each rat.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;A set of 3 panels showing the relationship between weight and time for each rat.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;A set of 11 panels showing the relationship between weight and diet for each time.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;A set of 3 panels showing the relationship between weight and time for each diet.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 3&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;Annotation of plots in any plotting system involves adding points, lines, or text to the plot, in addition to customizing axis labels or adding titles. Different plotting systems have different sets of functions for annotating plots in this way. Which of the following functions can be used to annotate the panels in a multi-panel lattice plot?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;lines()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;panel.abline()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;text()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;points()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 4&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;The following code does NOT result in a plot appearing on the screen device.
+&lt;pre style=&quot;box-sizing: border-box; padding: 10px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 13px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.14902);&quot;&gt;
+library(lattice)
+library(datasets)
+data(airquality)
+p &amp;lt;- xyplot(Ozone ~ Wind | factor(Month), data = airquality)
+
+&lt;/pre&gt;
+Which of the following is an explanation for why no plot appears?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;The xyplot() function, by default, sends plots to the PDF device.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;The object &#39;p&#39; has not yet been printed with the appropriate print method.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;The variables being plotted are not found in that dataset.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;There is a syntax error in the call to xyplot().&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 5&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;In the lattice system, which of the following functions can be used to finely control the appearance of all lattice plots?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;print.trellis()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;par()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;splom()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;trellis.par.set()&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 6&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;What is ggplot2 an implementation of?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;the Grammar of Graphics developed by Leland Wilkinson&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;the S language originally developed by Bell Labs&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;a 3D visualization system&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;the base plotting system in R&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 7&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;Load the `airquality&#39; dataset form the datasets package in R.
+&lt;pre style=&quot;box-sizing: border-box; padding: 10px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 13px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.14902);&quot;&gt;
+library(datasets)
+data(airquality)
+
+&lt;/pre&gt;
+I am interested in examining how the relationship between ozone and wind speed varies across each month. What would be the appropriate code to visualize that using ggplot2? &lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;
+&lt;pre style=&quot;box-sizing: border-box; padding: 0px; font-family: inherit; font-size: inherit; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: transparent; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;&quot;&gt;
+qplot(Wind, Ozone, data = airquality)
+
+&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;
+&lt;pre style=&quot;box-sizing: border-box; padding: 0px; font-family: inherit; font-size: inherit; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: transparent; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;&quot;&gt;
+airquality = transform(airquality, Month = factor(Month))
+qplot(Wind, Ozone, data = airquality, facets = . ~ Month)
+
+&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;
+&lt;pre style=&quot;box-sizing: border-box; padding: 0px; font-family: inherit; font-size: inherit; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: transparent; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;&quot;&gt;
+qplot(Wind, Ozone, data = airquality, geom = &quot;smooth&quot;)
+
+&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;
+&lt;pre style=&quot;box-sizing: border-box; padding: 0px; font-family: inherit; font-size: inherit; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: transparent; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial;&quot;&gt;
+qplot(Wind, Ozone, data = airquality, facets = . ~ factor(Month))
+
+&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 8&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;What is a &lt;b style=&quot;box-sizing: border-box;&quot;&gt;geom&lt;/b&gt; in the ggplot2 system?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;a plotting object like point, line, or other shape&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;a method for making conditioning plots&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;a statistical transformation&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;a method for mapping data to attributes like color and size&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 24.5px;&quot;&gt;Question 9&lt;/h3&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;When I run the following code I get an error:
+&lt;pre style=&quot;box-sizing: border-box; padding: 10px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 13px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.14902);&quot;&gt;
+library(ggplot2)
+g &amp;lt;- ggplot(movies, aes(votes, rating))
+print(g)
+
+&lt;/pre&gt;
+I was expecting a scatterplot of &#39;votes&#39; and &#39;rating&#39; to appear. What&#39;s the problem?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;There is a syntax error in the call to ggplot.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;ggplot does not yet know what type of layer to add to the plot.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;The object &#39;g&#39; does not have a print method.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;The dataset is too large and hence cannot be plotted to the screen.&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00 / 1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;div style=&quot;box-sizing: border-box; font-family: inherit; font-weight: bold; color: inherit; text-rendering: optimizelegibility; font-size: 25px;&quot;&gt;
+&lt;div&gt;Question 10&lt;/div&gt;
+&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding-bottom: 10px;&quot;&gt;The following code creates a scatterplot of &#39;votes&#39; and &#39;rating&#39; from the movies dataset in the ggplot2 package. After loading the ggplot2 package with the library() function, I can run
+&lt;pre style=&quot;box-sizing: border-box; padding: 10px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 13px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; background-color: rgb(245, 245, 245); border: 1px solid rgba(0, 0, 0, 0.14902);&quot;&gt;
+qplot(votes, rating, data = movies)
+
+&lt;/pre&gt;
+How can I modify the the code above to add a smoother to the scatterplot?&lt;/div&gt;
+&lt;div dir=&quot;auto&quot; style=&quot;box-sizing: border-box;&quot;/&gt;
+&lt;table style=&quot;box-sizing: border-box; max-width: 100%; background-color: transparent; border-collapse: collapse; border-spacing: 0px;&quot;&gt;
+&lt;tbody style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Your Answer&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;/&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Score&lt;/th&gt;
+&lt;th style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); font-weight: bold;&quot;&gt;Explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; padding: 2px 4px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 12px; color: rgb(221, 17, 68); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(247, 247, 249); border: 1px solid rgb(225, 225, 232);&quot;&gt; qplot(votes, rating, data = movies, panel = panel.loess)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; padding: 2px 4px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 12px; color: rgb(221, 17, 68); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(247, 247, 249); border: 1px solid rgb(225, 225, 232);&quot;&gt; qplot(votes, rating, data = movies) + stats_smooth(&quot;loess&quot;)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; padding: 2px 4px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 12px; color: rgb(221, 17, 68); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(247, 247, 249); border: 1px solid rgb(225, 225, 232);&quot;&gt; qplot(votes, rating, data = movies) + geom_smooth()&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;&lt;span title=&quot;Correct&quot; style=&quot;box-sizing: border-box; color: rgb(3, 126, 3); font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; -webkit-font-smoothing: antialiased; vertical-align: baseline; background-image: none; background-position: 0% 0%; background-repeat: repeat repeat;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);&quot;&gt;Correct&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td dir=&quot;auto&quot; style=&quot;box-sizing: border-box; padding: 8px; text-align: initial; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); max-width: 500px; overflow: hidden; word-wrap: break-word;&quot;&gt;&lt;code style=&quot;box-sizing: border-box; padding: 2px 4px; font-family: Monaco, Menlo, Consolas, &#39;Courier New&#39;, monospace; font-size: 12px; color: rgb(221, 17, 68); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(247, 247, 249); border: 1px solid rgb(225, 225, 232);&quot;&gt; qplot(votes, rating, data = movies, smooth = &quot;loess&quot;)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;/&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;box-sizing: border-box;&quot;&gt;
+&lt;td style=&quot;box-sizing: border-box; padding: 8px; text-align: left; vertical-align: top; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);&quot;&gt;Total&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;&lt;/html&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Coursera R Programming 리뷰</title>
+    <link href="/2015/06/Coursera-R_Programming-review/"/>
+    <updated>2015-06-21T00:00:00+09:00</updated>
+    <id>/2015/06/Coursera-R_Programming-review</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/PWWg4pUIlmPAmofhVkihovuTn1U5L66YTOYFOsWikvw=w442-h137-no&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Coursera의 Data Science 코스의 두번째 강좌를 마쳤다. 퀴즈와 과제의 난이도가 지난번보다 대폭 올라가고 양이 많아져서  초반에 조금 당황했다(물론 첫번째 코스인 Toolbox는 정식 강좌라 보기 힘든 과정이긴 하다). 함수 작성하는 과제도 처음에는 막막했는데 코스 내 Discussion게시판을 활용해서 도움을 얻었고 그 후부터는 스스로 과제를 완성할 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;DB진흥원에 있는 &amp;#39;R을 활용한 분석&amp;#39;과 &amp;#39;R까기&amp;#39;라는 책을 통해 R을 조금 접한 입장에서 이번 강의에 대한 소감을 말해보고자 한다.&lt;/p&gt;
+
+&lt;p&gt;Coursera의 &amp;#39;R Programming&amp;#39; 강의는 R이라는 프로그래밍 언어를 가르치는 강좌이다. R을 통해 분석을 시도하거나 분석을 위한 함수나 패키지들은 다루지 않는다. R이라는 언어의 특성과 기본적인 문법, 함수의 실행 속도를 높이는 TIP등이 다루어 진다. 데이터 분석을 위한 사전 강좌라고 생각해도 무방하다.
+ 이 부분이 DB진흥원의 R 동영상 강좌와는 조금 차이가 있는 부분이다. DB진흥원의 강의는 R에 대한 간략한 소개 후에 곧바로 데이터 처리, 분석을 다루게 되는데 그 과정에서 다루지 못하고 넘어가는 내용들이 상당히 많다고 생각된다. Coursera의 9개 강좌를 하나의 강좌로 압축한 것으로 생각하면 될 것이다. &amp;#39;R까기&amp;#39;라는 책도 마찬가지였다.&lt;/p&gt;
+
+&lt;p&gt;물론 R이라는 랭귀지가 Product를 만들어 내는 것보다 데이터 분석에 특화되어 있는 언어기에 언어 자체에 대한 이해보다 실무(분석)에 응용하는 것이 더 중요하다고 생각되어질 수 있다. 하지만 언어체계를 이해하고 기본을 다진 후에 분석을 접하는 것이 올바른 순서라 생각된다. 함수와 문법 잠깐 익혀서 실무에 R을 활용하다가 이제 R을 이해하기 시작한 내가 느낀 점이다. 물론, 프로그래밍에 익숙한 사람들에게는 이러한 과정이 필요없거나 or 굉장히 사소한 단계일 것이다.&lt;/p&gt;
+
+&lt;p&gt;P.S. 7월부터 Data Science Track에서 무료 수강자에게는 수료 후에 주는 SoA(Statement of Accomplishment)가 발급되지 않는다. Johnes Hopkins에서 Verify하든 안하든 수료에 대한 어떠한 증명을 위해서는 돈을 내야만 하는 것이다. 돈이 부족한 사람들에게 Signature Track으로 수강할 수 있도록 financial aid가 지원된다고 하지만, 신청한 모두에게 지원되는 것이 아닌한 사실상 좀더 수익을 올리려는 조치로 생각된다.
+ 무료로 수강한다고 해서 강의나 과제가 차이가 나는 것은 아니지만, 뭔가 보람을 느낄 수 있을 만한 요소를 없애 버렸다. 학위도 아니고 업계에서 인정되는 자격증도 아닌 Signature Track을 유도하기 위해서라면 이러한 치사한 수법보다는 Coursera 수료증의 가치를 높이는 방향이 올바르다고 생각한다.
+(다른 MOOC사이트들과 비교하면 Coursera의 유료강좌가 값이 싼편이다. 하지만 수료증에 교수 친필사인을 박아주면서 수강료를 3배로 올리는 전략도 나올 법하다.)&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Coursera Data Scientist's Toolbox 리뷰</title>
+    <link href="/2015/06/Coursera-Data-Scientist's-Toolbox-Review/"/>
+    <updated>2015-06-21T00:00:00+09:00</updated>
+    <id>/2015/06/Coursera-Data-Scientist's-Toolbox-Review</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/IK06io568EqktTe8fl84d1j8GGXrlnpP9UPaxzuK80k=w400-h120-no&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Coursera의 Data Science Specialized 코스 중 첫 번째를 마쳤다. 우연한 기회에 지인의 추천으로 시작하게 되었고, 언어(영어)의 압박으로 그만둘까 싶은 적도 있었다. 데이터분석을 하겠다고 맘을 먹고 꽤 긴 시간을 자습했지만 별다른 기술이나 체계가 좀처럼 잡히지 않았기에, 총 9개의 과목으로 이뤄진 과정을 한 달에 하나씩 수료하겠다고 맘을 먹고 도전했다. 막연하게 시작했을 때는 괴롭고 힘든 것이 목표를 세우니 의욕이 생겼고 흥겨운 스트레스가 되었다.&lt;/p&gt;
+
+&lt;p&gt;첫번째 과목인 &amp;#39;Data Scientist&amp;#39;s Toolbox&amp;#39;는 전체 9개 과목의 오프닝과 같은 과목이다. 해당 코스를 이수하기 위해서 필수적으로 사용해야 하는 Tool에 대한 기본 이해와 사용법들을 알려 주고, Cousera의 강의와 퀴즈, 과제들의 진행 방식들을 익힐 수 있다.&lt;/p&gt;
+
+&lt;p&gt;특히 말로만 들어봤던 GitHub에 대해 이해하고 사용할 수 있다는 것은 내게는 큰 수확이였다. &amp;#39;Signature Track&amp;#39;으로 3만원 가량을 지불하기에는 아까운 것이 사실이다. 그것도 나머지 8개의 과목은 5만원 정도 하는데, 오프닝 성격의 과목이라서 조금 깍아준 것이다. 두번째 과목인 R Programming의 앞부분에 추가했어도 될 분량이지만 별도 과목으로 분리한 것이 돈벌 목적이라는 것은 말하면 입아플 뿐이다(미국 대학들이 돈버는데 선수들인 점에서 Coursera가 온라인 강의라고 해서 좀 더 자비로울 것이라고 생각하는 것도 순진한 생각이겠지).&lt;/p&gt;
+
+&lt;p&gt;Coursera의 Certification이 큰 영향을 가진 수료증이 될 것이라고 생각하진 않지만, 새로운 트렌드에 한 번 먼저 닿아보고 싶었다. 먼저 닿았다고 하기에는 또 늦은 것이, 소비자 중에서 나의 위치는 &amp;#39;Innovator&amp;#39;는 아니고 딱 &amp;#39;Early Adoptor&amp;#39;인 모양이다.&lt;/p&gt;
+
+&lt;p&gt;결론을 말하자면 1) 프로그래밍 개발에 어느정도 경험이 있고, 2) Github를 쓸 줄 알고, 3) &amp;#39;Signature Track&amp;#39;을 할 생각이 없다면, Toolbox를 수강할 필요는 없다. Github도 인터넷을 통해 충분히 익힐 수 있는 점을 감안하면 1), 3)번이 고려대상이 될 것이다. 물론 3)번에 대한 고려가 절대적이다.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
