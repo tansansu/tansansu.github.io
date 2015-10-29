@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>/2015/08/Coursera-Getting-and-Cleaning-Data/</loc>
+    </url>
+    
+    <url>
         <loc>/2015/06/Exploratory-Data-Analysis-Quiz%232/</loc>
     </url>
     
@@ -11,6 +15,10 @@
     
     <url>
         <loc>/2015/06/Coursera-Data-Scientist's-Toolbox-Review/</loc>
+    </url>
+    
+    <url>
+        <loc>/2015/05/Analysis-of-lte-traffic-in-us-army-areas/</loc>
     </url>
     
 

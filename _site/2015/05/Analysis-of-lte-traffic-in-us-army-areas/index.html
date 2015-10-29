@@ -3,12 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>tansans  &mdash; Coursera R Programming 리뷰 </title>
+        <title>tansans  &mdash; 미군부대 지역 LTE 트래픽 분석 </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="alternate" type="application/atom+xml" title="tansans" href="/feed.xml">
         <!-- Loop and attach page tags from page meta section -->
         
-        <meta name="keywords" content="CourseraMOOCData_Science">
+        <meta name="keywords" content="Data_Science">
         
         <link rel="icon" type="image/png" href="/favicon.png">
         <!-- Custom CSS -->
@@ -80,39 +80,35 @@
                         <div class="col-sm-12">
     <div class="page">
     	<div class="page-title">
-    		Coursera R Programming 리뷰
+    		미군부대 지역 LTE 트래픽 분석
     		<div class="meta">    			
                 
                 By tansans,
                 
-    			<time class="timeago" datetime="2015-06-21 00:00:00 +0900">Sunday 21 June 2015</time>,
-    			<a href="/2015/06/Coursera-R_Programming-review/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
+    			<time class="timeago" datetime="2015-05-21 00:00:00 +0900">Thursday 21 May 2015</time>,
+    			<a href="/2015/05/Analysis-of-lte-traffic-in-us-army-areas/#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
     			comments.
     		</div>
     	</div>
         <div class="page-content">
-            <p><img src="https://lh3.googleusercontent.com/PWWg4pUIlmPAmofhVkihovuTn1U5L66YTOYFOsWikvw=w442-h137-no" alt=""></p>
+            <p>LTE 기지국 분석 작업을 하던 중 눈에 띄는 현상을 마주하게 됐다.
+오후 6시만 지나면 LTE 기지국의 부하(트래픽 사용량)가 높아지는 지역이 존재하는 것이다. 가입자가 많은 지역이면 모르겠는데, 가입자가 많지 않은 외곽지역 들도 상당수 포함되어 있었다. 특히 동두천, 평택, 의정부 지역은 거의 항상 오후 6시 이후에 LTE 트래픽이 증가하여 기지국의 용량에 근접하곤 했다. 이 이슈에 대해 분석 했던 내용이다.</p>
 
-<p>Coursera의 Data Science 코스의 두번째 강좌를 마쳤다. 퀴즈와 과제의 난이도가 지난번보다 대폭 올라가고 양이 많아져서  초반에 조금 당황했다(물론 첫번째 코스인 Toolbox는 정식 강좌라 보기 힘든 과정이긴 하다). 함수 작성하는 과제도 처음에는 막막했는데 코스 내 Discussion게시판을 활용해서 도움을 얻었고 그 후부터는 스스로 과제를 완성할 수 있었다.</p>
+<p>먼저 해당 지역들을 살펴보자. 평택시 팽성읍, 동두천시 걸산동, 의정부 고산동, 서울 용산구2가 이상 4개 지역에서 해당 이슈가 자주 발생했다. 가만히 살펴보니 모두 미군부대가 위치한 지역이였다. 이들 지역은 용산을 제외하고는 인구가 많거나 트래픽이 많이 몰릴만한 지역은 아니였다. 다만, 미군부대가 있기에 미군 즉 외국인의 비율이 다른 곳보다 높을 것이다.</p>
 
-<p>DB진흥원에 있는 &#39;R을 활용한 분석&#39;과 &#39;R까기&#39;라는 책을 통해 R을 조금 접한 입장에서 이번 강의에 대한 소감을 말해보고자 한다.</p>
+<p>이들 지역의 가입자 구성을 살펴보았다. 다른 곳보다 외국인 가입자의 비율이 10배 이상 높았다. 그럼 외국인과 내국인의 모바일 트래픽 사용량은 어떤 차이점이 있는 것일까? 이 지역 가입자들의 요금제를 조사하였더니 답이 쉽게 나왔다. 외국인은 내국인보다 데이터 무제한 요금제의 사용율이 더 높았다. 내국인의 데이터 무제한 요금제 사용율은 30%인 반면 이 지역 외국인의 데이터 무제한 요금제 사용율은 60%가 넘었다. 데이터 무제한 요금제 사용자가 많다는 것은 데이터 사용량이 많을 수 있다는 것을 의미하는 것이다.</p>
 
-<p>Coursera의 &#39;R Programming&#39; 강의는 R이라는 프로그래밍 언어를 가르치는 강좌이다. R을 통해 분석을 시도하거나 분석을 위한 함수나 패키지들은 다루지 않는다. R이라는 언어의 특성과 기본적인 문법, 함수의 실행 속도를 높이는 TIP등이 다루어 진다. 데이터 분석을 위한 사전 강좌라고 생각해도 무방하다.
- 이 부분이 DB진흥원의 R 동영상 강좌와는 조금 차이가 있는 부분이다. DB진흥원의 강의는 R에 대한 간략한 소개 후에 곧바로 데이터 처리, 분석을 다루게 되는데 그 과정에서 다루지 못하고 넘어가는 내용들이 상당히 많다고 생각된다. Coursera의 9개 강좌를 하나의 강좌로 압축한 것으로 생각하면 될 것이다. &#39;R까기&#39;라는 책도 마찬가지였다.</p>
+<p>오후 6시 이후에 트래픽이 증가하는 것은 무엇 때문일까. 외국인 가입자에 의해 트래픽 사용량이 많다는 것으로 판단되었다면 이것도 쉽게 유추가 가능하다. 이 지역에 있는 외국인은 미군부대에서 근무하는 외국인일 가능성이 높다. 이들이 일과가 끝나는 6시 이후에 모바일 트래픽을 사용한다고 보면 될 것이다.</p>
 
-<p>물론 R이라는 랭귀지가 Product를 만들어 내는 것보다 데이터 분석에 특화되어 있는 언어기에 언어 자체에 대한 이해보다 실무(분석)에 응용하는 것이 더 중요하다고 생각되어질 수 있다. 하지만 언어체계를 이해하고 기본을 다진 후에 분석을 접하는 것이 올바른 순서라 생각된다. 함수와 문법 잠깐 익혀서 실무에 R을 활용하다가 이제 R을 이해하기 시작한 내가 느낀 점이다. 물론, 프로그래밍에 익숙한 사람들에게는 이러한 과정이 필요없거나 or 굉장히 사소한 단계일 것이다.</p>
-
-<p>P.S. 7월부터 Data Science Track에서 무료 수강자에게는 수료 후에 주는 SoA(Statement of Accomplishment)가 발급되지 않는다. Johnes Hopkins에서 Verify하든 안하든 수료에 대한 어떠한 증명을 위해서는 돈을 내야만 하는 것이다. 돈이 부족한 사람들에게 Signature Track으로 수강할 수 있도록 financial aid가 지원된다고 하지만, 신청한 모두에게 지원되는 것이 아닌한 사실상 좀더 수익을 올리려는 조치로 생각된다.
- 무료로 수강한다고 해서 강의나 과제가 차이가 나는 것은 아니지만, 뭔가 보람을 느낄 수 있을 만한 요소를 없애 버렸다. 학위도 아니고 업계에서 인정되는 자격증도 아닌 Signature Track을 유도하기 위해서라면 이러한 치사한 수법보다는 Coursera 수료증의 가치를 높이는 방향이 올바르다고 생각한다.
-(다른 MOOC사이트들과 비교하면 Coursera의 유료강좌가 값이 싼편이다. 하지만 수료증에 교수 친필사인을 박아주면서 수강료를 3배로 올리는 전략도 나올 법하다.)</p>
+<p>타지에서 외로움과 심심함을 해소하기 위해 자국 드라마나 TV를 보는 것은 어느 나라 사람이나 마찬가지인 모양이다.</p>
 
             <!-- Share & Comments -->
             <div class="share">
     <p>Posted:
         <i>
-            Sunday 21 June 2015
+            Thursday 21 May 2015
         </i>
-        <a class="pull-right" href="https://twitter.com/intent/tweet?url=/2015/06/Coursera-R_Programming-review/&text=Coursera R Programming 리뷰&via=" target="_blank">
+        <a class="pull-right" href="https://twitter.com/intent/tweet?url=/2015/05/Analysis-of-lte-traffic-in-us-army-areas/&text=미군부대 지역 LTE 트래픽 분석&via=" target="_blank">
             <i class="fa fa-retweet" style="color:red;"></i> Share
         </a>
     </p>
@@ -129,7 +125,7 @@
             </li>
         
             <li>
-                <a href="/2015/06/Coursera-Data-Scientist's-Toolbox-Review/">Coursera Data Scientist's Toolbox 리뷰</a>
+                <a href="/2015/06/Coursera-R_Programming-review/">Coursera R Programming 리뷰</a>
             </li>
         
         </ul>

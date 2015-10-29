@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xsl:stylesheet [<!ENTITY mdash "&#x2014;">]>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="en">tansansu</title>
+  <title type="text" xml:lang="en">tansans</title>
   <link type="application/atom+xml" href="/feed.xml" rel="self"/>
   <link type="text/html" href="" rel="alternate"/>
-  <updated>2015-08-18T00:07:44+09:00</updated>
+  <updated>2015-10-29T00:40:01+09:00</updated>
   <id>/all_feed</id>
   <author>
-    <name>tansansu</name>
+    <name>tansans</name>
   </author>
 
+  
+  <entry>
+    <title>Coursera Getting and Cleaning Data 리뷰</title>
+    <link href="/2015/08/Coursera-Getting-and-Cleaning-Data/"/>
+    <updated>2015-08-29T00:00:00+09:00</updated>
+    <id>/2015/08/Coursera-Getting-and-Cleaning-Data</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/bFkMhZrVb4QTUwH_DVcB8n6LC_kKhUuvkH07ZdT0ay8=w442-h137-no&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다.&lt;/p&gt;
+
+&lt;p&gt;7월에 해당 과정을 마쳤는데 여러모로 바쁘게 시간을 보내서 8월 말이 되어서야 리뷰를 남긴다(그것도 휴가기간에 짬이 생겨서 쓸 수 있게 되었다).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursetalk.com&quot;&gt;Coursetalks MOOCs&lt;/a&gt;라는 사이트와 &lt;a href=&quot;https://www.quora.com/Reviews-of-Coursera-Data-Science-Specialization-Track&quot;&gt;qua.com의 게시글&lt;/a&gt; 을 보면 Coursera의 Data Science 과정에 대한 비판을 쉽게 찾을 수 있다. 첫번째와 두번째 과정을 만족스럽게 이수했던 입장에서 의아하기도 했고 앞으로 7개의 과목이 남은 시점에서 신경쓰이기도 해서 게시글을 살펴보기 시작했다(난 아무래도 팔랑귀인거 같다).&lt;/p&gt;
+
+&lt;p&gt;비판의 주된 의견은 대략 2가지였다. 강의 구성이 별로다라는 것과 과제가 불친절(?)하다는 것이다. 강의 구성이 별로다라는 비판은 MOOC가 기존의 온라인강의와 차별되는 점인 다양한 학습 방법들은 배제된 채 동영상 강의가 전부라는 것이다. Coursera의 Data Science 과목들의 강의 구성은 동영상 강의 + 퀴즈 + 프로젝트 과제 로 이루어져 있는데, 사실 이 조합을 벗어나는 참신한 온라인 강의가 있을까 싶다. 게다가 Discussion 게시판을 통한 퀴즈와 프로젝트 과제에 대한 의견이 오가는 것을 보면 온라인으로 제공할 수 있는 교육의 기회와 요소들은 전부 갖춘 것은 아닌가 싶다.&lt;/p&gt;
+
+&lt;p&gt;과제가 불친절하다는 비판에는 수긍했다. 특히 이번 과목인 Getting and Cleaning Data의 경우에는 과제의 산출물로 무엇을 제출하라는 것인지도 이해하기 힘들었다(내 영어 실력이 부족해서인가 싶었지만 토론 게시판에서 영어권 학생들도 헷갈려하는 것을 보면 언어의 문제는 아닌 듯 싶다). 이번 과목은 Roger Peng교수가 아닌 Jeff Leek 교수가 강의를 했는데 동영상 강의도 단순히 슬라이드를 넘기며 설명하는 단순한 방식이였고, 프로젝트 과제에 대한 지문도 너무 간결했다. 더 간단한 과제였던 R Programming의 프로젝트의 경우 산출물의 일부 예시를 보여주고 실수할 수 있는 부분들을 사전에 설명해 주는 등 과제에 대한 가이드가 충실했었다.&lt;/p&gt;
+
+&lt;p&gt;공부는 스스로 하는 것이라는 내 개인적인 신념으로는 사실 과제에 대한 안내가 불친절하다는 것이 이 과목에 대한 단점은 아니였다. 하지만 일반적인 관점에서 다른 과목들과 비교했을 때에는 Getting and Cleaning Data의 프로젝트 과제는 비판받기에는 충분했다.&lt;/p&gt;
+
+&lt;p&gt;R Programming에 비해서 난이도가 크게 올라갔다. 프로젝트 과제 뿐만 아니라 각 퀴즈마다 직접 데이터를 매만져서 답을 골라야 하는 문제들인데 이것들도 쉽지 않았다. 이제 Data Science라는 문을 열고 들어간 느낌이 들었던 한달이였다(한달에 한과목씩 Data Science의 과목을 듣고 있습니다).&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Exploratory Data Analysis Quiz#2</title>
@@ -561,6 +584,24 @@ How can I modify the the code above to add a smoother to the scatterplot?&lt;/di
 &lt;p&gt;Coursera의 Certification이 큰 영향을 가진 수료증이 될 것이라고 생각하진 않지만, 새로운 트렌드에 한 번 먼저 닿아보고 싶었다. 먼저 닿았다고 하기에는 또 늦은 것이, 소비자 중에서 나의 위치는 &amp;#39;Innovator&amp;#39;는 아니고 딱 &amp;#39;Early Adoptor&amp;#39;인 모양이다.&lt;/p&gt;
 
 &lt;p&gt;결론을 말하자면 1) 프로그래밍 개발에 어느정도 경험이 있고, 2) Github를 쓸 줄 알고, 3) &amp;#39;Signature Track&amp;#39;을 할 생각이 없다면, Toolbox를 수강할 필요는 없다. Github도 인터넷을 통해 충분히 익힐 수 있는 점을 감안하면 1), 3)번이 고려대상이 될 것이다. 물론 3)번에 대한 고려가 절대적이다.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>미군부대 지역 LTE 트래픽 분석</title>
+    <link href="/2015/05/Analysis-of-lte-traffic-in-us-army-areas/"/>
+    <updated>2015-05-21T00:00:00+09:00</updated>
+    <id>/2015/05/Analysis-of-lte-traffic-in-us-army-areas</id>
+    <content type="html">&lt;p&gt;LTE 기지국 분석 작업을 하던 중 눈에 띄는 현상을 마주하게 됐다.
+오후 6시만 지나면 LTE 기지국의 부하(트래픽 사용량)가 높아지는 지역이 존재하는 것이다. 가입자가 많은 지역이면 모르겠는데, 가입자가 많지 않은 외곽지역 들도 상당수 포함되어 있었다. 특히 동두천, 평택, 의정부 지역은 거의 항상 오후 6시 이후에 LTE 트래픽이 증가하여 기지국의 용량에 근접하곤 했다. 이 이슈에 대해 분석 했던 내용이다.&lt;/p&gt;
+
+&lt;p&gt;먼저 해당 지역들을 살펴보자. 평택시 팽성읍, 동두천시 걸산동, 의정부 고산동, 서울 용산구2가 이상 4개 지역에서 해당 이슈가 자주 발생했다. 가만히 살펴보니 모두 미군부대가 위치한 지역이였다. 이들 지역은 용산을 제외하고는 인구가 많거나 트래픽이 많이 몰릴만한 지역은 아니였다. 다만, 미군부대가 있기에 미군 즉 외국인의 비율이 다른 곳보다 높을 것이다.&lt;/p&gt;
+
+&lt;p&gt;이들 지역의 가입자 구성을 살펴보았다. 다른 곳보다 외국인 가입자의 비율이 10배 이상 높았다. 그럼 외국인과 내국인의 모바일 트래픽 사용량은 어떤 차이점이 있는 것일까? 이 지역 가입자들의 요금제를 조사하였더니 답이 쉽게 나왔다. 외국인은 내국인보다 데이터 무제한 요금제의 사용율이 더 높았다. 내국인의 데이터 무제한 요금제 사용율은 30%인 반면 이 지역 외국인의 데이터 무제한 요금제 사용율은 60%가 넘었다. 데이터 무제한 요금제 사용자가 많다는 것은 데이터 사용량이 많을 수 있다는 것을 의미하는 것이다.&lt;/p&gt;
+
+&lt;p&gt;오후 6시 이후에 트래픽이 증가하는 것은 무엇 때문일까. 외국인 가입자에 의해 트래픽 사용량이 많다는 것으로 판단되었다면 이것도 쉽게 유추가 가능하다. 이 지역에 있는 외국인은 미군부대에서 근무하는 외국인일 가능성이 높다. 이들이 일과가 끝나는 6시 이후에 모바일 트래픽을 사용한다고 보면 될 것이다.&lt;/p&gt;
+
+&lt;p&gt;타지에서 외로움과 심심함을 해소하기 위해 자국 드라마나 TV를 보는 것은 어느 나라 사람이나 마찬가지인 모양이다.&lt;/p&gt;
 </content>
   </entry>
   

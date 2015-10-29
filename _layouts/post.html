@@ -17,7 +17,8 @@ layout: default
         <div class="page-content">
             {{ content }}
             <!-- Share & Comments -->
-            {% include scripts/share.html %}            
+            {% include scripts/share.html %}
+            {% include scripts/disqus.html %}            
         </div>
     </div>
 </div>
@@ -27,3 +28,6 @@ layout: default
     });
     {% include scripts/disqus.html %}
 </script>
+    
+<script id="dsq-count-scr" src="//tansans.disqus.com/count.js" async></script>
+    
