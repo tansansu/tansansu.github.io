@@ -1,4 +1,4 @@
-name: tansans
+name: tansansu
 description:  Carbonated Thinking
 
 sass:
@@ -12,10 +12,10 @@ redcarpet:
 url: 
 permalink: /:year/:month/:title/
 owner: 
-    name: tansans
+    name: tansansu
     twitter: #
-    github: tansans
-    disqus_shortname: tansans
+    github: tansansu
+    disqus_shortname: tansansu
 
 ga_id: #
 ga_username: #
