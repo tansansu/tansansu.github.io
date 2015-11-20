@@ -30,6 +30,7 @@ main {position: relative;}
 }
 
 .page-item-title {
+  font-family: 'Nanum Gothic';
   list-style: none;
   padding: 0;
   .fa-comments-o {color: black;}
@@ -41,7 +42,8 @@ main {position: relative;}
 .page-item-body {display: none;}
 
 .page-title {
-  font-size: 28px;
+  font-size: 26px;
+  font-family: 'Nanum Gothic';
   font-weight: 700;
   padding: 0 0 0 15px;
 }
@@ -133,6 +135,7 @@ main {position: relative;}
   padding: 0 !important;
   .separator {
     color: #333!important;
+    font-family: 'Nanum Gothic';
     font-weight:700!important;
     margin-bottom: 1px;
     margin-top: 1px;
@@ -146,6 +149,7 @@ main {position: relative;}
   min-width: 139px;
   padding: 0!important;
   a {
+    font-family: 'Nanum Gothic';  
     font-weight: 700!important;
     &:hover,
     &:focus {
