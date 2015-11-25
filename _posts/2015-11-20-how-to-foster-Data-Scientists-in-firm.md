@@ -3,7 +3,7 @@ layout: post
 title: "기업에서 빅데이터 분석전문가를 양성하는 방법"
 date: 2015-11-20
 comments: true
-tags: Big_Data Data Scientist
+tags: Big_Data Data_Scientist
 archive: true
 ---
 
