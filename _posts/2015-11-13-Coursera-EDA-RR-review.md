@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Coursera Exploratory Data Analysis/Reproducible Research 리뷰"
 date: 2015-11-13
