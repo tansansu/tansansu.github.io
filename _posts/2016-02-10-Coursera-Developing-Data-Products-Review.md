@@ -19,7 +19,8 @@ Data Science Specializaton 마지막 강의입니다. Capstone Project라는 마
 2. Classmate라는 새로운 메뉴
 Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표시해주는 기능입니다. 한국에도 몇 명이 수강중인지 보입니다. 해당 숫자를 눌러도 누가 강의를 듣는지는 자세히 표시해 주지 않네요. -0-;;
 기능이 아직 완전하게 구현된 것은 아닌 것 같습니다. 나중에는 해당 지역을 클릭하면 수강한 학생들이 표시되고 쪽지보내기 등 커뮤니케이션 기능이 추가될 것으로 보입니다. MOOC의 단점 내지 취약한 부분으로 알려진 것이 수강생은 많아도 수료생은 극히 적다는 점인데, 혼자(그것도 무료로) 공부하면서 동기부여가 약해지고 외롭(?)게 공부해야 한다는 것이 수료를 막는 장애라고 인지하는 것 같습니다. 토론게시판의 기능을 보완하고 영어로 의사소통이 힘든 학생들에게는 Classmate 메뉴는 강의를 수료까지 이끄는 유용한 기능이 될 것으로 보입니다.
-![](https://lh3.googleusercontent.com/W0hZS_ZFgQkvVFUh4qcrvs9dl7eKdXOuItfTscPdowjM8jH4XVSTc7neGYXFkc6GrIlUR8A5WOI5g9dBg2Q7m_tuOmGrPlLQ1rKJZRyrr_pDg07fzfJ2Am7QmzHF8WPBsY9aM3tjJxuLqUm4zhBbJFsPZbVN9XQ43QLgrozWfnVj-Jus4ZVIMbp2dR3KfhUbWnWakxYOqRSB2gUEh-YgDEbRbZ7SOlK7Hafx54fdB820vS2Yer51sYMdyjJPSWRAuuAF7Ek082xxHzcJ4xAS1cAt8VgtnG_N9_QhN6FLRKh6G8TcwItI0mfJxgNaW2SKidLvarqVCah1_-EIU5X56EAhw0fc-ualyMupEhmEdTqbf8mTWYwR7Hf-Wm5M1qItOPASGuZFMdIx1knPTVdaKCRiA7uuJ8u-jMw2MJl8aW18s6vstsS1htUKhVY1g8tAqQNRhVuf569kx45Fk3fTfsT0l_7jAnFeq6jFq5t-GHklmrqu8SCcnWgrvV7pQdi35KMPWuDCuPRQ8FZZrOxGo19JeW91p8_yIfkk09lSyZZNXPWu7DTlgf8ktwNQAqBXjA6A=w2142-h1114-no)
+
+![](https://lh3.googleusercontent.com/W0hZS_ZFgQkvVFUh4qcrvs9dl7eKdXOuItfTscPdowjM8jH4XVSTc7neGYXFkc6GrIlUR8A5WOI5g9dBg2Q7m_tuOmGrPlLQ1rKJZRyrr_pDg07fzfJ2Am7QmzHF8WPBsY9aM3tjJxuLqUm4zhBbJFsPZbVN9XQ43QLgrozWfnVj-Jus4ZVIMbp2dR3KfhUbWnWakxYOqRSB2gUEh-YgDEbRbZ7SOlK7Hafx54fdB820vS2Yer51sYMdyjJPSWRAuuAF7Ek082xxHzcJ4xAS1cAt8VgtnG_N9_QhN6FLRKh6G8TcwItI0mfJxgNaW2SKidLvarqVCah1_-EIU5X56EAhw0fc-ualyMupEhmEdTqbf8mTWYwR7Hf-Wm5M1qItOPASGuZFMdIx1knPTVdaKCRiA7uuJ8u-jMw2MJl8aW18s6vstsS1htUKhVY1g8tAqQNRhVuf569kx45Fk3fTfsT0l_7jAnFeq6jFq5t-GHklmrqu8SCcnWgrvV7pQdi35KMPWuDCuPRQ8FZZrOxGo19JeW91p8_yIfkk09lSyZZNXPWu7DTlgf8ktwNQAqBXjA6A=w1200-h700-no)
 
 
 추가된 기능과 더불어 UI는 eDX와 비슷하게 변했습니다. 주별로 있는 퀴즈가 강의 동영상 중간에 끼어 넣으면서(물론 별도로 퀴즈를 풀 수 있는 메뉴는 있습니다), 강의와 퀴즈의 연속성을 주는 UI는 eDX에서 경험한 스타일이였습니다.
@@ -42,7 +43,8 @@ Intro가 길었는데 강의 자체에 대한 후기는 짧게 남깁니다. 강
 
 - - -
 
-위에서도 잠깐 언급했지만 JHU의 Data Science 강의를 추천하기 힘든 이유는 강의만으로 해당 주제를 반도 알 수 없다는 것입니다. 무슨 말이냐면, Data Web App을 만드는 데에 여러가지 Package들과 도구들이 있는데 이 모든 것을 모두 언급하지만 그 깊이는 수박 겉핥기라는 것입니다. 저도 강의를 들으면서 부족한 부분이 많아서 [datacamp.com](https://www.datacamp.com) 등 다른 사이트에서 공부를 병행했습니다. 한달안에 끝내는 스케줄에 깊이를 요구하는 것이 무리라고 생각되겠지만 그렇다면 강의 스케줄을 늘리던지, 한두 object들에 집중하는 것이 맞다고 봅니다. 동영상 강의 말미에 자세한 내용은 어디를 참고하라면서 링크를 던져두고 끝내는 것은 성의가 없어 보입니다. 그럴듯한 강의 제목과 수료증으로 사람들을 현혹시키는 부분이 분명히 있어 보입니다. 이 강의 시리즈를 들으면서 가장 만족한 부분은 프로젝트를 하고 Peer 평가를 하면서 다른 수강생들의 작업물을 보면서 배우는 것이였습니다. 다른 이들의 작업물과 어드바이스를 통해 배우는 점이 많아서 저도 feedback을 굉장히 충실하게 하려고 노력했습니다(그래서 그런지 Cousera에서 '좋은 평가자'라면서 좀 더 Peer feedback을 해달라고 메일이 오기도 했습니다. 물론 Cousera의 알고리즘이 detect한 것이겠지만요..;;). 하지만 Peer 평가는 Cousera 사이트의 공통적인 정책이지 이 과목만이 주는 장점은 아니죠.
+위에서도 잠깐 언급했지만 JHU의 Data Science 강의를 추천하기 힘든 이유는 강의만으로 해당 주제를 반도 알 수 없다는 것입니다. 무슨 말이냐면, Data Web App을 만드는 데에 여러가지 Package들과 도구들이 있는데 이 모든 것을 모두 언급하지만 그 깊이는 수박 겉핥기라는 것입니다. 저도 강의를 들으면서 부족한 부분이 많아서 [datacamp.com](https://www.datacamp.com) 등 다른 사이트에서 공부를 병행했습니다. 한달안에 끝내는 스케줄에 깊이를 요구하는 것이 무리라고 생각되겠지만 그렇다면 강의 스케줄을 늘리던지, 한두 object들에 집중하는 것이 맞다고 봅니다. 동영상 강의 말미에 자세한 내용은 어디를 참고하라면서 링크를 던져두고 끝내는 것은 성의가 없다고 보아야 할 것입니다.
+그럴듯한 강의 제목과 수료증으로 사람들을 현혹시키는 부분이 분명히 있어 보입니다. 이 강의 시리즈를 들으면서 가장 만족한 부분은 프로젝트를 하고 Peer 평가를 하면서 다른 수강생들의 작업물을 보면서 배우는 것이였습니다. 다른 이들의 작업물과 어드바이스를 통해 배우는 점이 많아서 저도 feedback을 굉장히 충실하게 하려고 노력했습니다(그래서 그런지 Cousera에서 '좋은 평가자'라면서 좀 더 Peer feedback을 해달라고 메일이 오기도 했습니다. 물론 Cousera의 알고리즘이 detect한 것이겠지만요..;;). 하지만 Peer 평가는 Cousera 사이트의 공통적인 정책이지 이 과목만이 주는 장점은 아니죠.
 이 강의 시리즈에서 R Programming 과목이 많이 알려져서 많은 사람들이 수강(낚인)하지만 더 좋은 학습 사이트들도 있다고 생각합니다. 저도 이미 유료로 시작한 강의여서 끝까지 진행했지, 무료로 시험삼아 듣기 시작했다면 실망한 순간 다른 곳에서 시작했을 것 같습니다([datacamp.com](https://www.datacamp.com) 추천!).
 
 3월에 시작하는 Capstone 프로젝트만 남아 있는데 1년 가까이 진행된 강의가 끝나간다고 생각하니 속이 후련하네요. 마지막 후기에는 어떤 글을 남기게 될지 기대됩니다.
