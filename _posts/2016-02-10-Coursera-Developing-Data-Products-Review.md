@@ -7,7 +7,7 @@ tags: Coursera MOOC Data_Science
 archive: true
 ---
 
-![](https://lh3.googleusercontent.com/vYN7ZqR6UcjUAoNwgbU0rPvCoFMQ_91FJig6AqXfe_8vpcVr0Nmul7HyqEQ-WqKFTBkBrlRcn-cOXOPX4E-hnKkavBBhuQe37pnLT-Z5dpzF_Rypwg3maQwNgu2dVWGKYOnBoAJ2htn1g9Ynu5XbQxEwUOodO1mfQeuaXZ-6ei2jzQFHRuuhj-cdtPdKyXg2xHbaQkunatbTjfiGPctc913_u856sfZrU0EysZMcvAP5v943rvmnCGgLdMd_HYA_a49OVfVubu_K2Z2dNyh7WRjcUd5bDR286TW5HcBq-7InJq6y1XKv6voqVZKait06vDbm461rDAikRIxyWHYh8L3l6CxZC-5W5mjVNkPdgs5d-lwSqMpHk1ciqwflCllrNg6g161iIMLqeYonnk7ANsFBfjqAkcHz-1DOPgKW30R-83kds4R-sMraamxcHl9A0pQSlSA8B4EdHV2chG_hFHTAZ3P85_q0d94qPHvuvESSycH6jA83sNeMmhAZ3B4lw8WKCp1Xe7jbxjeAguJu4MwVC0S9HrK3mBcCo_wfapCqOk7TnAEevJGz74fXAYwFmx9r=w460-h259-no)
+![](https://lh3.googleusercontent.com/hrmFCabFyfFmLm0__jlHzQz5Z3jhuRoja-lgKuOgoKvHNNnf2XIPw2rlBAVSM9zXQ9cUwl4uIkQdCfRFl9cfucvkpF9Z66NV0Fh805OA_4OAuzY0NtW0ykJ4bHU1-DX32o6TkwDddW9CR_cUEQ6vlYBvn0GidnSyNiWngJK3w65YYtL-qnMGPQfSFO0_fXD4qKQ-j0WhM40MQGTivZ92GxVoiDeISlQRf0q_T9rcfxnV9F_Sej0r1XVet7S5_-6e8LpR0S3VOfpbkNZz-JxhBnVYqD_Zr41_iLvqeBhgXXlokQH9kbv_6_o5qP5Iw_dkOOAZQDyxvR6DDCA8C-yaZLM85KUocFHN9v5Y9Zx0UIjrJsVmJa-PWGT5ClKySI5SMFBBUAMhJyGKVjK_KMlZ9Si7ZjI3JkNLvKFi6364zJ6gTmXoIBFO8dnyJosji14lKyg3sDMRqSFCMJtIuEAhjYaR6YII5Qo8DCpIJttmQDjslIquSDf-xxWcu5FCZ977JYDBpacp8kMuapr-NdYF-fl5VlvTNJGZGJVhkL6XugLBBdo6gKm556HDBovS3q4ChznK=w460-h259-no)
 
 Data Science Specializaton 마지막 강의입니다. Capstone Project라는 마지막 코스가 남아 있지만, 전체 과정을 마무리하는 프로젝트이고 따로 특별한 강의는 없는 것이기 때문에 Developing Data Products가 마지막 코스라고 봐도 무방할 것 같습니다.
 
@@ -20,7 +20,7 @@ Data Science Specializaton 마지막 강의입니다. Capstone Project라는 마
 Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표시해주는 기능입니다. 한국에도 몇 명이 수강중인지 보입니다. 해당 숫자를 눌러도 누가 강의를 듣는지는 자세히 표시해 주지 않네요. -0-;;
 기능이 아직 완전하게 구현된 것은 아닌 것 같습니다. 나중에는 해당 지역을 클릭하면 수강한 학생들이 표시되고 쪽지보내기 등 커뮤니케이션 기능이 추가될 것으로 보입니다. MOOC의 단점 내지 취약한 부분으로 알려진 것이 수강생은 많아도 수료생은 극히 적다는 점인데, 혼자(그것도 무료로) 공부하면서 동기부여가 약해지고 외롭(?)게 공부해야 한다는 것이 수료를 막는 장애라고 인지하는 것 같습니다. 토론게시판의 기능을 보완하고 영어로 의사소통이 힘든 학생들에게는 Classmate 메뉴는 강의를 수료까지 이끄는 유용한 기능이 될 것으로 보입니다.
 
-![](https://lh3.googleusercontent.com/W0hZS_ZFgQkvVFUh4qcrvs9dl7eKdXOuItfTscPdowjM8jH4XVSTc7neGYXFkc6GrIlUR8A5WOI5g9dBg2Q7m_tuOmGrPlLQ1rKJZRyrr_pDg07fzfJ2Am7QmzHF8WPBsY9aM3tjJxuLqUm4zhBbJFsPZbVN9XQ43QLgrozWfnVj-Jus4ZVIMbp2dR3KfhUbWnWakxYOqRSB2gUEh-YgDEbRbZ7SOlK7Hafx54fdB820vS2Yer51sYMdyjJPSWRAuuAF7Ek082xxHzcJ4xAS1cAt8VgtnG_N9_QhN6FLRKh6G8TcwItI0mfJxgNaW2SKidLvarqVCah1_-EIU5X56EAhw0fc-ualyMupEhmEdTqbf8mTWYwR7Hf-Wm5M1qItOPASGuZFMdIx1knPTVdaKCRiA7uuJ8u-jMw2MJl8aW18s6vstsS1htUKhVY1g8tAqQNRhVuf569kx45Fk3fTfsT0l_7jAnFeq6jFq5t-GHklmrqu8SCcnWgrvV7pQdi35KMPWuDCuPRQ8FZZrOxGo19JeW91p8_yIfkk09lSyZZNXPWu7DTlgf8ktwNQAqBXjA6A=w1200-h700-no)
+![](https://lh3.googleusercontent.com/Slvqm8d96OzdK_YWNclvLEfBmBzFXYBBwrMcs1-UXOyUqimohQzM2oB3jgBXXVR738ZKeLhUj6l_rhC1fXzIt6EfQsNiOIVeepE52YpVL8WFJ7y32-UprUkBAUXwIrXvwGhzYlBrg--uvEMs8EKYBTWwBgsRY85tpGPxJs2OrwFnS-yDxQQzZFqTMc_rxNvzp7diGhwdj3KmxPCKMHyetCbEuARECA-GNJvHs4PDRM98qtbHrwkd_teynnbFPf9zh97DEbQejaU938Gh5g-3ES8d_r_3a1AjPPCPZbF5WhCK234GLx-KM2WT4Ekxz0pMGCF4f7goF4ozi3j3sIaey63StJWobYWwkzmDjvGK39NSc2Ldn7adrV917ZOAnIhPaJWbLPM7LSceDXYD7BfT2fY0Scj9LSDB5hJiZg5ZUj6p5Nr1YpHSbNFU8yccrZrXaXkvO0qOBuXQZWmha6HuW_6XOMTUV_iKkc-W9codGkbNlsyWRF0sdKuQ5Kgefmla4qDl00R3RqVdkSyTJQuXwgLX2yBA8_xZlhQbTMMd9Sr1hqSZL3JZ0cSGbg0mh34ptgsE=w1071-h557-no)
 
 
 추가된 기능과 더불어 UI는 eDX와 비슷하게 변했습니다. 주별로 있는 퀴즈가 강의 동영상 중간에 끼어 넣으면서(물론 별도로 퀴즈를 풀 수 있는 메뉴는 있습니다), 강의와 퀴즈의 연속성을 주는 UI는 eDX에서 경험한 스타일이였습니다.
@@ -38,7 +38,7 @@ Intro가 길었는데 강의 자체에 대한 후기는 짧게 남깁니다. 강
 
 3. R Package 제작법은 Rstudio에 마련된 환경을 활용합니다. R에서 Package 제작이 코딩에 엄청난 실력을 가진 굇수들만이 할 수 있는 것은 아니란 것을 알게 되었고, 나도 한 번 만들어 봐야겠다는 생각이 들었습니다. R Package 제작이 Reproducible Research의 수단으로 활용되어 R의 Package가 기하급수적으로 늘어나는 것들에는 Rstudio를 이용한 쉬운 개발환경들도 한 몫한다고 생각되어 집니다. 이래저래 Rstudio에는 여러 번 감사한 마음을 갖게 되네요(어디에 팔리지 않았으면..).
 
-프로젝트 과제는 [shinyapp.io](http://shinyapp.io)라는 사이트(또, Rstudio가 제공하는 사이트;)에 shiny와 interactive plot 툴을 활용한 web app을 올리는 것과 제출한 web app을 설명하는 프리젠테이션 파일을 R Package를 통해 만드는 것입니다. 저는 R에 내장된 iris 데이터로 Machine Learning 알고리즘들을 테스트해보는 아주 형식적인 웹앱을 만들었습니다. 제출 기한에 쫓겨 만들고 너무 단순하고 성의없다고 자괴감을 가졌는데, 다른 Peer들의 과제들을 채점하면서 '난 정말 성의있었구나' 혹은 '이 강의 듣는 사람들이 많이 바빴구나' 하고 느꼈습니다. 웹앱 자체의 복잠함이나 완성도는 크게 신경쓰실 필요는 없을 거 같습니다. 과제 채점기준에 부합되게 만드는 것이 중요할 것 같습니다. (참고하실 분은 제 [작업물 링크](https://tansansu.shinyapp.io/Coursera_DDP_Project)로..)
+프로젝트 과제는 [shinyapp.io](http://shinyapps.io)라는 사이트(또, Rstudio가 제공하는 사이트;)에 shiny와 interactive plot 툴을 활용한 web app을 올리는 것과 제출한 web app을 설명하는 프리젠테이션 파일을 R Package를 통해 만드는 것입니다. 저는 R에 내장된 iris 데이터로 Machine Learning 알고리즘들을 테스트해보는 아주 형식적인 웹앱을 만들었습니다. 제출 기한에 쫓겨 만들고 너무 단순하고 성의없다고 자괴감을 가졌는데, 다른 Peer들의 과제들을 채점하면서 '난 정말 성의있었구나' 혹은 '이 강의 듣는 사람들이 많이 바빴구나' 하고 느꼈습니다. 웹앱 자체의 복잠함이나 완성도는 크게 신경쓰실 필요는 없을 거 같습니다. 과제 채점기준에 부합되게 만드는 것이 중요할 것 같습니다. (참고하실 분은 제 [작업물 링크](https://tansansu.shinyapps.io/Coursera_DDP_Project)로..)
 
 
 - - -
