@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2016-02-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2016-02-10-Coursera-Developing-Data-Products-Review/</loc>
+    <lastmod>2016-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-12-20-To-remove-all-emails-in-gmail-at-once/</loc>
+    <lastmod>2015-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</loc>
+    <lastmod>2015-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-12-07-Coursera-SI-RM-review/</loc>
+    <lastmod>2015-12-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-11-20-how-to-foster-Data-Scientists-in-firm/</loc>
+    <lastmod>2015-11-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-11-13-Coursera-EDA-RR-review/</loc>
+    <lastmod>2015-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-08-29-Coursera-Getting-and-Cleaning-Data/</loc>
+    <lastmod>2015-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</loc>
+    <lastmod>2015-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-08-03-Coursera-R_Programming-review/</loc>
+    <lastmod>2015-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</loc>
+    <lastmod>2015-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/aboutme/</loc>
+    <lastmod>1984-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>
