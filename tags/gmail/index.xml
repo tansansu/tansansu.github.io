@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gmail on tansansu</title>
-    <link>http://localhost:1313/tags/gmail/</link>
+    <link>http://tansansu.github.io/tags/gmail/</link>
     <description>Recent content in Gmail on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tansansu.github.io/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>GMail에서 전체 메일 한 번에 지우기</title>
-      <link>http://localhost:1313/2015-12-20-To-remove-all-emails-in-gmail-at-once/</link>
+      <link>http://tansansu.github.io/2015-12-20-To-remove-all-emails-in-gmail-at-once/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2015-12-20-To-remove-all-emails-in-gmail-at-once/</guid>
+      <guid>http://tansansu.github.io/2015-12-20-To-remove-all-emails-in-gmail-at-once/</guid>
       <description>&lt;p&gt;이메일에서 광고메일을 한 번도 삭제하지 않고 쓰는 사람들이 있다. 스마트폰의 이메일 아이콘 우측 상단에 &amp;lsquo;4572&amp;rsquo; 같은 숫자가 떠 있는 것처럼 읽지 않은 메일이 엄청나게 쌓여 있는 경우도 많이 보았다. 카테고리 혹은 라벨을 여러개로 만들어서 Inbox로 들어온 메일을 자동(혹은 수동)으로 분류해서 정리하는 나같은 Geek들은 지켜보는 것도 참기 힘든 상황이랄까.&lt;/p&gt;
 
 &lt;p&gt;그러다가 우연히 알게 된 사실인데, GMail을 쓰는 사람들 중에서 오래된 이메일을 묵힌 상태로 쓰고 있는 이유가 한번 정리를 안했더니 겉잡을 수 없어서 그대로 두는 사람도 있었다는 사실이다. 왜냐하면, GMail에서는 전체 메일을 한번에 지우는 기능이 없으니까(한 화면에 최대 100개의 이메일을 한 번에 볼 수 있고 최대 100개씩만 이메일을 지울 수 있다).&lt;/p&gt;

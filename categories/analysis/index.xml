@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analysis on tansansu</title>
-    <link>http://localhost:1313/categories/analysis/</link>
+    <link>http://tansansu.github.io/categories/analysis/</link>
     <description>Recent content in Analysis on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Thu, 21 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tansansu.github.io/categories/analysis/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>미군부대 지역 LTE 트래픽 분석</title>
-      <link>http://localhost:1313/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</link>
+      <link>http://tansansu.github.io/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</link>
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</guid>
+      <guid>http://tansansu.github.io/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</guid>
       <description>&lt;p&gt;LTE 기지국 분석 작업을 하던 중 눈에 띄는 현상을 마주하게 됐다.
 오후 6시만 지나면 LTE 기지국의 부하(트래픽 사용량)가 높아지는 지역이 존재하는 것이다. 가입자가 많은 지역이면 모르겠는데, 가입자가 많지 않은 외곽지역 들도 상당수 포함되어 있었다. 특히 동두천, 평택, 의정부 지역은 거의 항상 오후 6시 이후에 LTE 트래픽이 증가하여 기지국의 용량에 근접하곤 했다. 이 이슈에 대해 분석 했던 내용이다.&lt;/p&gt;
 
