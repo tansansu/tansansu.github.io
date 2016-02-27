@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Science on Carbonated Thinking by tansansu</title>
+    <title>Data Science on tansansu</title>
     <link>http://localhost:1313/tags/data-science/</link>
-    <description>Recent content in Data Science on Carbonated Thinking by tansansu</description>
+    <description>Recent content in Data Science on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
+    <language>ko</language>
     <lastBuildDate>Wed, 10 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
