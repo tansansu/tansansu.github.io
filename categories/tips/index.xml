@@ -6,8 +6,49 @@
     <description>Recent content in Tips on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tansansu.github.io/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugo를 통해 생성한 페이지를 Github에 간단히 연결하기</title>
+      <link>http://tansansu.github.io/2016-02-28-linking-hugo-to-github/</link>
+      <pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/2016-02-28-linking-hugo-to-github/</guid>
+      <description>
+
+&lt;p&gt;최근 Github에 올리는 블로그 페이지들을 jekyll에서 Hugo로 바꿨습니다. 정적페이지 생성기로 jekyll 외에 여러가지가 있다는 것을 알게 되었고, Hugo는 우연히 인터넷에서 알게 되어 한 번 시도만 해볼까 했는데 결국에는 블로깅 Tool도 바꿔버렸습니다 ^^; 겉으로 보기에는 &lt;em&gt;당연히도&lt;/em&gt; 차이점이 없지만 만족스러운 전환이였습니다.&lt;/p&gt;
+
+&lt;p&gt;제가 생각하는 Hogo의 장점은
+&amp;gt; 1. &lt;strong&gt;설치과정이 쉽다.&lt;/strong&gt; 저는 mac에서 jekyll을 설치하고 사용했는데, jekyll을 설치하는 과정이 복잡하고 번거로웠습니다. 반면에, Hugo는 &lt;em&gt;mac 기준으로&lt;/em&gt; home brew를 설치했다면 &lt;code&gt;brew install hugo&lt;/code&gt; 명령어만으로 모든 설치가 끝납니다.
+&amp;gt;
+2. &lt;strong&gt;페이지 생성 속도가 빠르다.&lt;/strong&gt; Hugo가 Jekyll보다 확실히 페이지 빌드 속도가 빠릅니다. 포스팅이 20개도 안되는 제 블로그지만 Hugo로 빌드하는데 43ms 정도 걸리네요. jekyll에서는 1초 정도는 걸렸던 거 같습니다.&lt;/p&gt;
+
+&lt;p&gt;이 외에 jekyll 못지않게 매뉴얼이나 테마 등이 잘 되어 있습니다. 왠만한 테마는 &lt;code&gt;Disqus&lt;/code&gt; 댓글 및 &lt;code&gt;Google Analytics&lt;/code&gt;가 전부 내장되어 있습니다 ^^;&lt;/p&gt;
+
+&lt;h3 id=&#34;hugo의-불편한-점:911e38b943d794aa59f72e3bff9e5ce3&#34;&gt;Hugo의 불편한 점&lt;/h3&gt;
+
+&lt;p&gt;Hugo가 다 좋은데 한가지 번거로운 점이 있는데, Github의 블로그 계정에 연결하려면 추가 작업이 필요합니다. 빌드하게 되면 폴더 내에 &lt;code&gt;public&lt;/code&gt; 이라는 별도의 폴더가 생성되고, 그 안에 웹페이지가 저장됩니다. 그래서 Hugo 폴더를 Github의 블로그 Repository에 바로 연결하면 웹페이지가 보이지 않습니다. &lt;code&gt;public&lt;/code&gt; 폴더가 연결되야 하기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 Hugo의 홈페에지에는 Github의 subtree를 기능을 이용하라고 나와 있습니다. 그 외에 제가 처음 Hugo를 사용할 때 참고한 &lt;a href=&#34;http://cdpython.github.io/tags/github/&#34;&gt;블로그 페이지&lt;/a&gt;에 나온 것처럼 쉘 스크립트를 쓰기도 하구요. 그런데 이것보다 더 간편하다고 생각되는 방법을 소개합니다.&lt;/p&gt;
+
+&lt;h3 id=&#34;public-폴더를-symlink-로-연결하기:911e38b943d794aa59f72e3bff9e5ce3&#34;&gt;&lt;code&gt;Public&lt;/code&gt; 폴더를 &lt;code&gt;Symlink&lt;/code&gt;로 연결하기&lt;/h3&gt;
+
+&lt;p&gt;Hugo 폴더 밑에 생성되는 &lt;code&gt;Public&lt;/code&gt; 폴더를 Github의 블로그 Repository와 연동되는 폴더로 Symbolic Link를 걸어주면 간단히 해결됩니다. &lt;em&gt;(Symbolic Link와 관련된 자세한 설명은 웹에 많이 있기 때문에 자세한 설명은 생략하겠습니다)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mac에서 Symlink 생성하기&lt;/strong&gt;
+&lt;code&gt;ln -s &amp;quot;타겟폴더 경로(Public 폴더 경로)&amp;quot; &amp;quot;Github와 연결할 폴더 경로&amp;quot;&lt;/code&gt;
+예를 들면 이렇게 하면 됩니다. &lt;code&gt;ln -s /Users/계정명/Hugo/public /Users/계정명/xxx.github.io&lt;/code&gt;
+(위의 &amp;ldquo;xxx.github.io&amp;rdquo;는 Github에 생성된 블로그 Repository명 입니다.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Windows에서 Symlink 생성하기&lt;/strong&gt;
+&lt;code&gt;mklink /j &amp;quot;타겟폴더 경로(Public 폴더 경로)&amp;quot; &amp;quot;Github와 연결할 폴더 경로&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;subtree&lt;/code&gt; 기능도 한 번 설정하면 간편해서 &lt;code&gt;Symlink&lt;/code&gt;방법과 별차이가 없을 수 있는데요, &lt;code&gt;subtree&lt;/code&gt;는 Hugo의 모든 파일이 일단 Github에 업로드 되기 때문에 블로그와 연관된 Repository가 중복으로 생성되는 점이 있으며, md파일로 생성한 블로그 포스트 raw 파일도 불필요하게 Github에 공개되는 점이 있습니다. 웹으로 생성된 페이지만 Github에 올리고 싶다면 &lt;code&gt;Symlink&lt;/code&gt; 방식이 가장 간편한 것 같습니다. ^^&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GMail에서 전체 메일 한 번에 지우기</title>
