@@ -61,7 +61,7 @@ h1 {
 
 /* Layout */
 .pure-img-responsive {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 #layout {
@@ -458,6 +458,14 @@ hr.thin {
 	h2.brand-tagline {
 		font-size: 1.2rem;
 	}
+
+	.header .sidebarphoto{
+	    width:100px;
+	    height:100px;
+	    border-radius: 50%;
+	    -moz-border-radius: 20%;
+	    -webkit-border-radius: 20%;
+	}
 }
 
 @media (min-width: 48rem) {
@@ -479,8 +487,8 @@ hr.thin {
 	    width:160px;
 	    height:160px;
 	    border-radius: 50%;
-	    -moz-border-radius: 50%;
-	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 20%;
+	    -webkit-border-radius: 20%;
 	}
 
     .sidebar {
