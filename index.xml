@@ -6,8 +6,36 @@
     <description>Recent content on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tansansu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coursera의 1만불 Master Degree</title>
+      <link>http://tansansu.github.io/2016-03-08-coursera-master-degree/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/2016-03-08-coursera-master-degree/</guid>
+      <description>&lt;p&gt;얼마 전 Coursera에서 이메일 한통이 왔습니다. 매주 보내는 추천 강의 이메일인가 싶었는데, 설문을 요청하는 메일이였습니다. Coursera에서 강의를 들을 때 처음 시작하는 주와 마지막 주에 설문해달라는 메일이 온적은 있었는데, 지금처럼 아무 강의도 듣지 않을 때 설문 요청 메일이 온 적은 처음이였습니다. 게다가 설문 요청도 강의하는 기관(내지 학교)로부터 온 것이 아니고 Coursera로부터 온 것이였고요.&lt;/p&gt;
+
+&lt;p&gt;이런 설문조사는 곧장 휴지통에 버려버리는데 호기심이 생겨서 한 번 해봤습다. 캡쳐하지 못한 것이 아쉬운데 일단 질문은 5개정도 되었던거 같아요.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Coursera의 강의를 통해 이루려는 목적이 무엇인지&lt;/li&gt;
+&lt;li&gt;Coursera에 어떤 강의(Specialized Course)들이 추가되면 좋을지(객관식)&lt;/li&gt;
+&lt;li&gt;Coursera가 Specialized Course를 여러개 묶어서 내면 들을 의향이 있는지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;그리고 마지막 질문이 &lt;strong&gt;Coursera가 1만불에 Master Degree를 주는 프로그램을 개설한다면 어떨꺼 같냐?&lt;/strong&gt;(수강할 생각이 있는지 라는 질문이였는지는 자세히 기억이 안남;;)&lt;/p&gt;
+
+&lt;p&gt;마지막 질문지를 보면서 MOOC에서도 O2O가 이뤄지는 것인가 하는 생각이 들어 흠칫 놀랐습니다. 교육기관으로 등록 후에 정식 학위를 제공한다고 하면 꽤 파장이 클 거 같다는 생각이 들었구요(이미 교육기관으로 등록이 되어 있는지는 잘 모름). 초기에는 Coursera의 석사 학위만으로는 취업 시 장점이 되는 스펙이 되기 힘들겠지만 이미 석사 이상의 전공이 있는 사람들에게 부전공으로 석사 학위를 넣는 것으로는 유용할 것으로 보입니다. 미국 거주자에게 한정된 얘기겠지만 초창기 석사 학위 취득자에게는 Coursera의 지원으로 미국 내 유수 기업에 취업할 기회도 주어질 것 같구요.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;udacity.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Udacity가 Nanodgree를 취업과 강하게 연결시키는 실용적인 부분으로 MOOC의 전략 방향을 잡았다면 Coursera는 Academic한 방향으로 정식 교육 시스템에 파고드는 전략을 취한 것으로 보입니다. 정식 학위 말고도 오프라인 교육 프로그램들이 제공하는 가치들(동문시스템, 동기생 간의 협업 및 교류 등)을 Coursera가 과연 어떻게 보완하고 쫓아갈 수 있을지 궁금하네요.&lt;/p&gt;
+
+&lt;p&gt;무엇이 더 나은 전략인지는 아직 판단할 수 없으나(학문의 분야에 따라 판단이 다르기도 하고) 교육 소비자 입장에서 유학을 가지 않고도 해외 유수의 교육을 받고 그 노력에 대한 보상(학위)까지 받을 수 있다는 것은 일단 환영할 만한 일입니다. 훗날 Coursera가 미국  Top 대학에 이름을 올릴 날이 올 수 있을까요?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo를 통해 생성한 페이지를 Github에 간단히 연결하기</title>
@@ -102,37 +130,6 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     </item>
     
     <item>
-      <title>Coursera Practical Machine Learning 리뷰</title>
-      <link>http://tansansu.github.io/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</link>
-      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://tansansu.github.io/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</guid>
-      <description>&lt;p&gt;Coursera의 Data Science Specialization 8번째 과목 &amp;lsquo;Practical Machine Learning&amp;rsquo; 수강 리뷰입니다.&lt;/p&gt;
-
-&lt;p&gt;작년 4월부터 시작해서 한달에 한과목씩 수료하던 Coursera의 Data Science 과정도 막바지에 이르렀네요. 대체 언제 끝나나 하던 지루함도 이제 얼른 끝내고 싶은 조바심으로 바뀌었습니다. 이 과정을 수료하는 중간에 여러 사이트에서 더 좋은 온라인 강의들도 많이 알게 되어서 이걸 포기하고 다른 수업으로 갈아탈까 하는 마음도 있었습니다. 하지만, 과목당 49$ 정도의 적지 않은 돈을 몇개월 투자한 덕분에 끝까지 수료하기로 맘을 먹게 되었습니다 ㅎㅎ 의지가 약한 분들에게는 수료증이 수료증 이상의 값을 할 수 있다고 봅니다.&lt;/p&gt;
-
-&lt;p&gt;Practical Machine Learning 후기를 본격적으로 시작하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/RrbdYlLG-m--afxqmlRifT41TXc07JbyaOlet7xtxb2BLh_NkodXyQLaRMQNvJ02r710fiHrVG7z6xK_EL-yiD7mb3PIDZKQl7Qz-G1IjwhH93owWfkUGZERWFnp9sxhV0ZZ_zmvT2kbgpSAqJ9Dm0N9Xh7BhhZRorRBrhOEHw3v82noZZPSJsGrRUbjhQmEnjT4iAlJmqzWhgmkrqDehSjuH6bhzJy8CwATGw-arp71v1WDlqbpjHNnKum1yfij-E7QNcwYnAtxAawpBmfPfo7uAuB0ByDhBtbwZweM7qVxBdAZ3EmtPZ9UbmzKk84PL6oVqz4eexVHoAWpltUVgeXSWMMQV2TPvbeZf8ZQeQaMtlRSK3KyeMk0be8wW6RXN2-FjWhp9tTJgaLxF1n-d4BPkiJ-naiey2YceFgwqSBGTybxssBSQKsYBbV-qRysEsT0ZT6UN1eB9wtYjoPC1puDJ_vR7lLaoQjn9xAof5-kFTSA68I70eoJEMLKsYGfLIlYAIxrSuHIszwZkR4mIe2KEgJtyPg4Lze3qAY7RJdWLBV18fJTiX-r7myzDXH0XozY=w442-h137-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;이번 과목의 강사는 Jeff Leak 입니다. Exploratory Data Analysis 과목에서 말이 엄청 빠르고 과제 설명이 불친절해서 엄청 힘들었던 기억이 나네요. 이번에도 말이 빠른건 마찬가지입니다. 다만 과제는 밑에서 다루겠지만 이번에는 작성해야할 리포트와 알고리즘에 대해 자세히 설명해 준 덕분에 과제하기는 수월했습니다.&lt;/p&gt;
-
-&lt;p&gt;머신러닝에 대해서 조금이라도 알고 계신 분들은 아시겠지만 이 분야에서 학습해야할 내용이 엄청나게 많습니다. 알고리즘도 많고 알고리즘과 R코드를 1달안에 전부 가르치는 것은 사실 불가능한 일이겠죠. 그래서 Coursera의 이 과목도 필수적인 알고리즘을 R코드와 소개하고 적용하는 장면을 보여주고 자세한 내용은 어디를 참고하라는 식으로 링크를 알려주는 수준입니다.&lt;/p&gt;
-
-&lt;p&gt;동영상 클립도 이전의 다른 과목들에 비해 많기도 하고 다루는 내용들도 많다보니 밀리면 진도를 나가기가 굉장히 힘듭니다. 시간을 정해서 매일 조금씩 진도를 나가는 것을 추천합니다.&lt;/p&gt;
-
-&lt;p&gt;퀴즈도 어렵습니다 ㅠㅠ Statistical Inference보다는 덜 어렵지만 어렵긴 합니다만 주마다 한두 문제는 까다로운게 나왔습니다. 주로 데이터셋과 기본 R코드를 주고 어떤 알고리즘으로 모델을 만든 후 test set의 예측률을 맞추는 문제들입니다. 하라는 데로 하면 대부분 결과가 나옵니다.&lt;/p&gt;
-
-&lt;p&gt;Project 과제는 하나의 주제로 2가지를 수행하는 방식입니다. 첫번째는 classification 해야 하는 데이터셋을 주고 Machine Learning 알고리즘을 만드는 작업을 리포트로 작성해서 제출해야 합니다. 두번째는 위에서 만든 알고리즘으로 testset을 classification해서 정답을 맞춰야 합니다. testset에는 정답지는 없고 웹으로 결과를 제출해서 맞은 개수대로 점수를 얻는 방식입니다. class가 몇개 안되서 여러번 찍으면 맞출 수도 있겠지만 제출 한도가 2회입니다.&lt;/p&gt;
-
-&lt;p&gt;Project를 하면서 컬럼이 160개가 되는 데이터셋은 처음 다뤄봤습니다. 데이터셋이 커지면 작업이 힘든 것 중에 하나가 데이터를 확인하고 살펴보는 과정이 힘듭니다. EDA 작업이 지난할 뿐더러 각 컬럼이 무엇을 의미하는지 체크하는데 시간이 오래 걸립니다(데이터의 내용 파악은 영어이기도 하고 결국 포기;;). 데이터셋으로 학습시키는 연산도 오래 걸려서 모델 선택도 오래 걸렸습니다. 저는 PCA로 차원 축소해서 연산 시간을 줄이고자 했는데, 토론 게시판의 다른 학습자들은 160개 전부 모델링으로 돌리는 것 같았습니다.
- 저는 결과적으로 모델 정확도는 20개의 테스트셋 문제 중에 17개만 맞췄습니다. 토론 게시판에 일부는 다 맞춘 사람도 있었는데 Ensemble을 썼다고 하네요(kaggle도 그렇고 classification 기법의 대세는 ensemble인 듯..)&lt;/p&gt;
-
-&lt;p&gt;이 수업 이전에는 단순히 알고리즘 몇개만 알고 활용하는 수준이였는데, 이 과목을 통해서 좀 더 포괄적으로 다양한 기법들을 알 수 있게 되었습니다(caret 패키지의 다양한 활용도와 함께~). 힘들었지만 재미를 느낄 수 있는 과목이였습니다.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>GMail에서 전체 메일 한 번에 지우기</title>
       <link>http://tansansu.github.io/2015-12-20-To-remove-all-emails-in-gmail-at-once/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
@@ -161,6 +158,37 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
 &lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/eOk63hoFX6-i_k7mFIBGGIu31SIO4iOuY8EKfFX3oZskxzkptTcAKI3DqWhyycZFrxbWgR1_m_Hcum0TtLIKR32ZsfkhyolQy92GQt7Umvz_UEvmY6HoxIOloQg63TLc4h8YtaITSgjjFGi7O3_wXofh7Vw0R81MzmanxNozHw-lQCbV5nbe_PqmDtvmz3Ui8yxiSYvkL5jfGbuYRujn5WCh8Z7pElxvkHTxxcAX2Exw7JIbY8a1zhCfENGnMRvv0axfl5zICzkTj2EFDWItynbwjNTKGSiYvsB8R1GqBk_uix0q-SDv53PaDosU4c2tlpzKqYOGd1wqK3MaTnlnw1KGcTfrAkNrnkTpfXBctiyzn99zVpd4q7cLMkN9hNm-ir1VdrDCu0JHT3KijK3zj6zSeVgRRIqb1QJlnx8-lba81EQmbzEJHpYCGFK1OCh73zDin4calX5drVpgKeag6mApHRrsdQkl6yqysnD-CyIAZ8tCcARcEWNKtLlFwME2dhKT0p5GFzAwBD1iblnRCK8bSkXrxN12mNmPjG0r_Dmo-E3mNbhcd8Sh_1ytgl-GSkfX=w850-h200-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;그런데 구글은 왜 전체 메일 삭제 기능을 버튼 하나로 만들어 놓지 않았을까. 이유는 간단할 것 같다. 유저들이 최대한 메일을 삭제하지 못하게 함으로써 메일 데이터를 활용한 서비스들(개인화 광고, 스팸필터링 등)을 강화하기 위해서일 것이다.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coursera Practical Machine Learning 리뷰</title>
+      <link>http://tansansu.github.io/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</guid>
+      <description>&lt;p&gt;Coursera의 Data Science Specialization 8번째 과목 &amp;lsquo;Practical Machine Learning&amp;rsquo; 수강 리뷰입니다.&lt;/p&gt;
+
+&lt;p&gt;작년 4월부터 시작해서 한달에 한과목씩 수료하던 Coursera의 Data Science 과정도 막바지에 이르렀네요. 대체 언제 끝나나 하던 지루함도 이제 얼른 끝내고 싶은 조바심으로 바뀌었습니다. 이 과정을 수료하는 중간에 여러 사이트에서 더 좋은 온라인 강의들도 많이 알게 되어서 이걸 포기하고 다른 수업으로 갈아탈까 하는 마음도 있었습니다. 하지만, 과목당 49$ 정도의 적지 않은 돈을 몇개월 투자한 덕분에 끝까지 수료하기로 맘을 먹게 되었습니다 ㅎㅎ 의지가 약한 분들에게는 수료증이 수료증 이상의 값을 할 수 있다고 봅니다.&lt;/p&gt;
+
+&lt;p&gt;Practical Machine Learning 후기를 본격적으로 시작하겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/RrbdYlLG-m--afxqmlRifT41TXc07JbyaOlet7xtxb2BLh_NkodXyQLaRMQNvJ02r710fiHrVG7z6xK_EL-yiD7mb3PIDZKQl7Qz-G1IjwhH93owWfkUGZERWFnp9sxhV0ZZ_zmvT2kbgpSAqJ9Dm0N9Xh7BhhZRorRBrhOEHw3v82noZZPSJsGrRUbjhQmEnjT4iAlJmqzWhgmkrqDehSjuH6bhzJy8CwATGw-arp71v1WDlqbpjHNnKum1yfij-E7QNcwYnAtxAawpBmfPfo7uAuB0ByDhBtbwZweM7qVxBdAZ3EmtPZ9UbmzKk84PL6oVqz4eexVHoAWpltUVgeXSWMMQV2TPvbeZf8ZQeQaMtlRSK3KyeMk0be8wW6RXN2-FjWhp9tTJgaLxF1n-d4BPkiJ-naiey2YceFgwqSBGTybxssBSQKsYBbV-qRysEsT0ZT6UN1eB9wtYjoPC1puDJ_vR7lLaoQjn9xAof5-kFTSA68I70eoJEMLKsYGfLIlYAIxrSuHIszwZkR4mIe2KEgJtyPg4Lze3qAY7RJdWLBV18fJTiX-r7myzDXH0XozY=w442-h137-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이번 과목의 강사는 Jeff Leak 입니다. Exploratory Data Analysis 과목에서 말이 엄청 빠르고 과제 설명이 불친절해서 엄청 힘들었던 기억이 나네요. 이번에도 말이 빠른건 마찬가지입니다. 다만 과제는 밑에서 다루겠지만 이번에는 작성해야할 리포트와 알고리즘에 대해 자세히 설명해 준 덕분에 과제하기는 수월했습니다.&lt;/p&gt;
+
+&lt;p&gt;머신러닝에 대해서 조금이라도 알고 계신 분들은 아시겠지만 이 분야에서 학습해야할 내용이 엄청나게 많습니다. 알고리즘도 많고 알고리즘과 R코드를 1달안에 전부 가르치는 것은 사실 불가능한 일이겠죠. 그래서 Coursera의 이 과목도 필수적인 알고리즘을 R코드와 소개하고 적용하는 장면을 보여주고 자세한 내용은 어디를 참고하라는 식으로 링크를 알려주는 수준입니다.&lt;/p&gt;
+
+&lt;p&gt;동영상 클립도 이전의 다른 과목들에 비해 많기도 하고 다루는 내용들도 많다보니 밀리면 진도를 나가기가 굉장히 힘듭니다. 시간을 정해서 매일 조금씩 진도를 나가는 것을 추천합니다.&lt;/p&gt;
+
+&lt;p&gt;퀴즈도 어렵습니다 ㅠㅠ Statistical Inference보다는 덜 어렵지만 어렵긴 합니다만 주마다 한두 문제는 까다로운게 나왔습니다. 주로 데이터셋과 기본 R코드를 주고 어떤 알고리즘으로 모델을 만든 후 test set의 예측률을 맞추는 문제들입니다. 하라는 데로 하면 대부분 결과가 나옵니다.&lt;/p&gt;
+
+&lt;p&gt;Project 과제는 하나의 주제로 2가지를 수행하는 방식입니다. 첫번째는 classification 해야 하는 데이터셋을 주고 Machine Learning 알고리즘을 만드는 작업을 리포트로 작성해서 제출해야 합니다. 두번째는 위에서 만든 알고리즘으로 testset을 classification해서 정답을 맞춰야 합니다. testset에는 정답지는 없고 웹으로 결과를 제출해서 맞은 개수대로 점수를 얻는 방식입니다. class가 몇개 안되서 여러번 찍으면 맞출 수도 있겠지만 제출 한도가 2회입니다.&lt;/p&gt;
+
+&lt;p&gt;Project를 하면서 컬럼이 160개가 되는 데이터셋은 처음 다뤄봤습니다. 데이터셋이 커지면 작업이 힘든 것 중에 하나가 데이터를 확인하고 살펴보는 과정이 힘듭니다. EDA 작업이 지난할 뿐더러 각 컬럼이 무엇을 의미하는지 체크하는데 시간이 오래 걸립니다(데이터의 내용 파악은 영어이기도 하고 결국 포기;;). 데이터셋으로 학습시키는 연산도 오래 걸려서 모델 선택도 오래 걸렸습니다. 저는 PCA로 차원 축소해서 연산 시간을 줄이고자 했는데, 토론 게시판의 다른 학습자들은 160개 전부 모델링으로 돌리는 것 같았습니다.
+ 저는 결과적으로 모델 정확도는 20개의 테스트셋 문제 중에 17개만 맞췄습니다. 토론 게시판에 일부는 다 맞춘 사람도 있었는데 Ensemble을 썼다고 하네요(kaggle도 그렇고 classification 기법의 대세는 ensemble인 듯..)&lt;/p&gt;
+
+&lt;p&gt;이 수업 이전에는 단순히 알고리즘 몇개만 알고 활용하는 수준이였는데, 이 과목을 통해서 좀 더 포괄적으로 다양한 기법들을 알 수 있게 되었습니다(caret 패키지의 다양한 활용도와 함께~). 힘들었지만 재미를 느낄 수 있는 과목이였습니다.&lt;/p&gt;
 </description>
     </item>
     
