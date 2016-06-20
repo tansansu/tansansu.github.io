@@ -6,8 +6,35 @@
     <description>Recent content on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tansansu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coursera Capstone Project 리뷰</title>
+      <link>http://tansansu.github.io/2016-06-05-review-of-Coursera-Capstone/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/2016-06-05-review-of-Coursera-Capstone/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;capstone.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;지난 4월에 &lt;strong&gt;Capstone Project&lt;/strong&gt;를 끝으로 &lt;strong&gt;Data Science Specialization&lt;/strong&gt; 과정을 끝냈습니다. 약 1년(정확히는 11개월; Capstone Project는 다른 과목들과 다르게 매달 있는 것이 아니라 1년에 2번 정도 과목이 열리는 것 같고 이번에는 3월에 열렸습니다)이 걸렸습니다. 주제는 Swift key와 같이 하는 Next word prediction 입니다(주제가 바뀌기를 내심 기대했지만 바뀌지 않았습니다 -0-;).&lt;/p&gt;
+
+&lt;p&gt;이번 과목의 특징들을 몇가지 말씀드리면, 첫번재로 &lt;strong&gt;Capstone Project&lt;/strong&gt;는 다른 과목들과 다르게 약 2달간 진행됩니다. 제출 결과물도 3가지로 지금까지 R을 통해 배웠던 TOOL은 전부 써먹게 됩니다. 과목마다 제출했던 report를 포함해서 shiny를 통해 웹앱을 만드는 것과 R presenter를 사용해서 프로젝트 결과물을 요약하는 것 등 과정에서 소개한 tool은 전부 사용하게 됩니다. &lt;strong&gt;Capstone Project&lt;/strong&gt;를 참여하려면 지난 과목들을 전부 이수해야 하기 때문에 어려운 부분은 없구요.&lt;br /&gt;
+또 다른 특징은 과제의 목표와 제출 방법만 주어지고 어떤 알고리즘을 써야 하는지, 어떤 분석 방법으로 try해야 하는지 등은 보여주지 않습니다. 어떠어떠한 알고리즘을 사용할 수 있다 정도로 알고리즘의 이름 정도를 소개해주고, 결과물에 어떤 방식을 사용할지는 본인에게 달려 있습니다.&lt;/p&gt;
+
+&lt;p&gt;게시판이 많이 활성화되어 있습니다. 이번 프로젝트는 다소 막막하기도 하고 결과물을 내기 위한 다양한 방법들이 있다 보니 내가 하고 있는 것이 맞는 방향인지 궁금할 때가 많이 있었습니다. 그래서 그런지 게시판에서 사람들과 퀴즈의 풀이나 과제의 진행방향에 대해서 논의가 활발했습니다. 다른 MOOC들도 마찬가지겠지만 Coursera에서 학습하면서 가장 만족스러운 부분이 학습자들 간의 review와 discussion이 아닐까 싶습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Capstone Project&lt;/strong&gt; 과목은 특히 퀴즈가 어려웠던 거 같습니다. 문장의 일부가 나오고 그 다음에 나올 만한 단어들이 보기로 나오는데, 프로젝트 완성물 제출 한참 전에 Next Word Prediction 앱의 알고리즘을 만들어야 풀 수 있는 문제입니다. 알고리즘으로는 보기의 단어들이 나타나지 않아서 영어의 문맥을 파악해서 눈치껏 풀어보려고 해도 결과가 신통치 않았습니다. 퀴즈는 여러번 풀 수 있기 때문에 여러번 시도한 후에 답을 맞출 수는 있겠지만, 어떻게 알고리즘을 만들어야 답에 해당하는 단어가 예측되는지는 해결하기 힘들었습니다.ㅠㅠ&lt;/p&gt;
+
+&lt;p&gt;저는 최종 결과물을 가장 쉬운 모델이라는 *Back-off model*로 만들었습니다(좀 고차원적인 모델을 만들고 싶었지만 일과 대학원 수업에 MOOC까지 동시에 병행하기에 시간이 모잘랐다는 핑계를..ㅠㅠ). 구글링을 해보면 베이지안을 적용한 경우도 있었습니다. 결과적으로 저는 train set 정확도 50.6%, test set 정확도 21.5% 라는 몹쓸 결과를 보였습니다. -0-; &lt;a href=&#34;https://tansansu.shinyapps.io/Next_Word_Prediction/&#34;&gt;[제 Web app 링크]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;알고리즘만 만들고 나면 결과물 webapp을 만드는 것은 쉬울 줄 알았습니다. 그런데 고려해야 할 것이 shinyapps.io라는 사이트에서 추천 단어가 표시되는 lead time 이였습니다. 무료로 제공되는 계정이기에 서버자원도 속도가 빠르지 않았기에 sample data를 크게 잡을 수 없었습니다. text 파일로 제공되는(약 500mb 정도) raw data를 전부 사용할 수 없기 때문에 sampling을 해야 했는데 알고리즘의 속도와 정확도의 균형을 맞추면서 어느 수준의 sampling을 해야 하는지 고민해야 했구요. 이 과제의 파트너사인 swift key를 비롯해 스마트폰의 몇메가 수준의 키보드 앱들은 어떤 식으로 알고리즘이 구현되었는지 궁금할 따름입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Capstone Project&lt;/strong&gt;가 끝나갈 무렵, 게시판에는 수강생들끼리 링크드인 친구 추가 및 skill endorsing 을 하는 글도 생겨났습니다. 저도 은근슬쩍 끼어서 링크드인에 수료증 링크도 해보고 누군지도 모르는 외국인 수강생과 Connection도 해봤습니다. 누군가 알아주길 바라는 마음이 없던건 아니였지만 가장 큰 기쁨은 제 자신에 대한 만족과 뿌듯함인 것 같습니다. 1년여의 과정을 스스로 시작해서 스스로 완결한 것, 또다른 공부를 시작해보려는 의욕과 자신감을 갖게 된 것이 첫 Coursera 과정을 완료하면서 얻은 가장 큰 수확이 아닐까 싶습니다.&lt;/p&gt;
+
+&lt;p&gt;Andrew Ng 교수의 &lt;strong&gt;Machine Learning&lt;/strong&gt; 과목이나 Udacity의 Data Science 과목에 도전하는 것이 MOOC의 다음 목표가 될 것 같네요.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Coursera의 1만불 Master Degree</title>
@@ -293,26 +320,6 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     </item>
     
     <item>
-      <title>Coursera Data Scientist&#39;s Toolbox 리뷰</title>
-      <link>http://tansansu.github.io/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</link>
-      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://tansansu.github.io/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/IK06io568EqktTe8fl84d1j8GGXrlnpP9UPaxzuK80k=w400-h120-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Coursera의 Data Science Specialized 코스 중 첫 번째를 마쳤다. 우연한 기회에 지인의 추천으로 시작하게 되었고, 언어(영어)의 압박으로 그만둘까 싶은 적도 있었다. 데이터분석을 하겠다고 맘을 먹고 꽤 긴 시간을 자습했지만 별다른 기술이나 체계가 좀처럼 잡히지 않았기에, 총 9개의 과목으로 이뤄진 과정을 한 달에 하나씩 수료하겠다고 맘을 먹고 도전했다. 막연하게 시작했을 때는 괴롭고 힘든 것이 목표를 세우니 의욕이 생겼고 흥겨운 스트레스가 되었다.&lt;/p&gt;
-
-&lt;p&gt;첫번째 과목인 &amp;lsquo;Data Scientist&amp;rsquo;s Toolbox&amp;rsquo;는 전체 9개 과목의 오프닝과 같은 과목이다. 해당 코스를 이수하기 위해서 필수적으로 사용해야 하는 Tool에 대한 기본 이해와 사용법들을 알려 주고, Cousera의 강의와 퀴즈, 과제들의 진행 방식들을 익힐 수 있다.&lt;/p&gt;
-
-&lt;p&gt;특히 말로만 들어봤던 GitHub에 대해 이해하고 사용할 수 있다는 것은 내게는 큰 수확이였다. &amp;lsquo;Signature Track&amp;rsquo;으로 3만원 가량을 지불하기에는 아까운 것이 사실이다. 그것도 나머지 8개의 과목은 5만원 정도 하는데, 오프닝 성격의 과목이라서 조금 깍아준 것이다. 두번째 과목인 R Programming의 앞부분에 추가했어도 될 분량이지만 별도 과목으로 분리한 것이 돈벌 목적이라는 것은 말하면 입아플 뿐이다(미국 대학들이 돈버는데 선수들인 점에서 Coursera가 온라인 강의라고 해서 좀 더 자비로울 것이라고 생각하는 것도 순진한 생각이겠지).&lt;/p&gt;
-
-&lt;p&gt;Coursera의 Certification이 큰 영향을 가진 수료증이 될 것이라고 생각하진 않지만, 새로운 트렌드에 한 번 먼저 닿아보고 싶었다. 먼저 닿았다고 하기에는 또 늦은 것이, 소비자 중에서 나의 위치는 &amp;lsquo;Innovator&amp;rsquo;는 아니고 딱 &amp;lsquo;Early Adoptor&amp;rsquo;인 모양이다.&lt;/p&gt;
-
-&lt;p&gt;결론을 말하자면 1) 프로그래밍 개발에 어느정도 경험이 있고, 2) Github를 쓸 줄 알고, 3) &amp;lsquo;Signature Track&amp;rsquo;을 할 생각이 없다면, Toolbox를 수강할 필요는 없다. Github도 인터넷을 통해 충분히 익힐 수 있는 점을 감안하면 1), 3)번이 고려대상이 될 것이다. 물론 3)번에 대한 고려가 절대적이다.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Coursera R Programming 리뷰</title>
       <link>http://tansansu.github.io/2015-08-03-Coursera-R_Programming-review/</link>
       <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
@@ -332,6 +339,26 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
 &lt;p&gt;P.S. 7월부터 Data Science Track에서 무료 수강자에게는 수료 후에 주는 SoA(Statement of Accomplishment)가 발급되지 않는다. Johnes Hopkins에서 Verify하든 안하든 수료에 대한 어떠한 증명을 위해서는 돈을 내야만 하는 것이다. 돈이 부족한 사람들에게 Signature Track으로 수강할 수 있도록 financial aid가 지원된다고 하지만, 신청한 모두에게 지원되는 것이 아닌한 사실상 좀더 수익을 올리려는 조치로 생각된다.
  무료로 수강한다고 해서 강의나 과제가 차이가 나는 것은 아니지만, 뭔가 보람을 느낄 수 있을 만한 요소를 없애 버렸다. 학위도 아니고 업계에서 인정되는 자격증도 아닌 Signature Track을 유도하기 위해서라면 이러한 치사한 수법보다는 Coursera 수료증의 가치를 높이는 방향이 올바르다고 생각한다.
 (다른 MOOC사이트들과 비교하면 Coursera의 유료강좌가 값이 싼편이다. 하지만 수료증에 교수 친필사인을 박아주면서 수강료를 3배로 올리는 전략도 나올 법하다.)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Coursera Data Scientist&#39;s Toolbox 리뷰</title>
+      <link>http://tansansu.github.io/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</link>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/IK06io568EqktTe8fl84d1j8GGXrlnpP9UPaxzuK80k=w400-h120-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coursera의 Data Science Specialized 코스 중 첫 번째를 마쳤다. 우연한 기회에 지인의 추천으로 시작하게 되었고, 언어(영어)의 압박으로 그만둘까 싶은 적도 있었다. 데이터분석을 하겠다고 맘을 먹고 꽤 긴 시간을 자습했지만 별다른 기술이나 체계가 좀처럼 잡히지 않았기에, 총 9개의 과목으로 이뤄진 과정을 한 달에 하나씩 수료하겠다고 맘을 먹고 도전했다. 막연하게 시작했을 때는 괴롭고 힘든 것이 목표를 세우니 의욕이 생겼고 흥겨운 스트레스가 되었다.&lt;/p&gt;
+
+&lt;p&gt;첫번째 과목인 &amp;lsquo;Data Scientist&amp;rsquo;s Toolbox&amp;rsquo;는 전체 9개 과목의 오프닝과 같은 과목이다. 해당 코스를 이수하기 위해서 필수적으로 사용해야 하는 Tool에 대한 기본 이해와 사용법들을 알려 주고, Cousera의 강의와 퀴즈, 과제들의 진행 방식들을 익힐 수 있다.&lt;/p&gt;
+
+&lt;p&gt;특히 말로만 들어봤던 GitHub에 대해 이해하고 사용할 수 있다는 것은 내게는 큰 수확이였다. &amp;lsquo;Signature Track&amp;rsquo;으로 3만원 가량을 지불하기에는 아까운 것이 사실이다. 그것도 나머지 8개의 과목은 5만원 정도 하는데, 오프닝 성격의 과목이라서 조금 깍아준 것이다. 두번째 과목인 R Programming의 앞부분에 추가했어도 될 분량이지만 별도 과목으로 분리한 것이 돈벌 목적이라는 것은 말하면 입아플 뿐이다(미국 대학들이 돈버는데 선수들인 점에서 Coursera가 온라인 강의라고 해서 좀 더 자비로울 것이라고 생각하는 것도 순진한 생각이겠지).&lt;/p&gt;
+
+&lt;p&gt;Coursera의 Certification이 큰 영향을 가진 수료증이 될 것이라고 생각하진 않지만, 새로운 트렌드에 한 번 먼저 닿아보고 싶었다. 먼저 닿았다고 하기에는 또 늦은 것이, 소비자 중에서 나의 위치는 &amp;lsquo;Innovator&amp;rsquo;는 아니고 딱 &amp;lsquo;Early Adoptor&amp;rsquo;인 모양이다.&lt;/p&gt;
+
+&lt;p&gt;결론을 말하자면 1) 프로그래밍 개발에 어느정도 경험이 있고, 2) Github를 쓸 줄 알고, 3) &amp;lsquo;Signature Track&amp;rsquo;을 할 생각이 없다면, Toolbox를 수강할 필요는 없다. Github도 인터넷을 통해 충분히 익힐 수 있는 점을 감안하면 1), 3)번이 고려대상이 될 것이다. 물론 3)번에 대한 고려가 절대적이다.&lt;/p&gt;
 </description>
     </item>
     
