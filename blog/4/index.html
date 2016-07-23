@@ -1,0 +1,663 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Coursera Getting and Cleaning Data 리뷰</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.16" />
+        
+    
+        
+    
+
+    
+
+    <link rel="apple-touch-icon-precomposed"
+        href='/favicon/apple-touch-icon-precomposed.png'>
+    <link rel="icon" href='/favicon/favicon.png'>
+    
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage"
+        content='/favicon/mstile.png'>
+
+
+
+        
+        
+            
+                <meta name="description" content="A Carbonated Thinking about the &#39;Data Science&#39;">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Coursera Getting and Cleaning Data 리뷰"/>
+<meta name="twitter:description" content="Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다. 7월에 해당 과정을 마쳤는데 여러모로 바쁘게 시간을 보내서 8월 말이 되어서야 리뷰를 남긴다(그것도 휴가기간에 짬이 생겨서 쓸 수 있게 되었다). Coursetalks MOOCs라는 사이트와 qua.com의 게시글 을 보면 Coursera의 Data Science 과정에 대한 비판을 쉽게 찾을 수 있다. 첫번째와 두번째 과정을 만족스럽게 이수했던 입장에서 의아하기도 했고 앞으로 7개의 과목이 남은 시점에서 신경쓰이기도 해서 게시글을 살펴보기 시작했다(난 아무래도 팔랑귀인거 같다)."/>
+
+
+
+        <meta property="og:title" content="Coursera Getting and Cleaning Data 리뷰" />
+<meta property="og:description" content="Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다. 7월에 해당 과정을 마쳤는데 여러모로 바쁘게 시간을 보내서 8월 말이 되어서야 리뷰를 남긴다(그것도 휴가기간에 짬이 생겨서 쓸 수 있게 되었다). Coursetalks MOOCs라는 사이트와 qua.com의 게시글 을 보면 Coursera의 Data Science 과정에 대한 비판을 쉽게 찾을 수 있다. 첫번째와 두번째 과정을 만족스럽게 이수했던 입장에서 의아하기도 했고 앞으로 7개의 과목이 남은 시점에서 신경쓰이기도 해서 게시글을 살펴보기 시작했다(난 아무래도 팔랑귀인거 같다)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tansansu.github.io/blog/4/" />
+
+
+<meta property="og:updated_time" content="2015-08-29T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Coursera Getting and Cleaning Data 리뷰">
+<meta itemprop="description" content="Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다. 7월에 해당 과정을 마쳤는데 여러모로 바쁘게 시간을 보내서 8월 말이 되어서야 리뷰를 남긴다(그것도 휴가기간에 짬이 생겨서 쓸 수 있게 되었다). Coursetalks MOOCs라는 사이트와 qua.com의 게시글 을 보면 Coursera의 Data Science 과정에 대한 비판을 쉽게 찾을 수 있다. 첫번째와 두번째 과정을 만족스럽게 이수했던 입장에서 의아하기도 했고 앞으로 7개의 과목이 남은 시점에서 신경쓰이기도 해서 게시글을 살펴보기 시작했다(난 아무래도 팔랑귀인거 같다).">
+
+
+<meta itemprop="dateModified" content="2015-08-29T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="302">
+
+
+
+<meta itemprop="keywords" content="Analysis,MOOC,Opinion,TIPS,Big Data,Coursera,Data Science,GMail,Github,Hugo," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+
+        
+            
+                
+                    <link rel="stylesheet" href="/css/main.min.css" />
+                
+            
+        
+
+        
+        
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-71104293-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">tansansu&#39;s Home</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://tansansu.github.io/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://tansansu.github.io/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://tansansu.github.io/blog/13/"><p>Coursera Capstone Project 리뷰</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://tansansu.github.io/blog/12/"><p>Coursera의 1만불 Master Degree</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f&text=Coursera%20Getting%20and%20Cleaning%20Data%20%eb%a6%ac%eb%b7%b0&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://tansansu.github.io/blog/4/">Coursera Getting and Cleaning Data 리뷰</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2015-08-29'>
+            August 29, 2015</time>
+        <span class="author"></span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    
+
+    <div id="content">
+        <p><img src="https://lh3.googleusercontent.com/bFkMhZrVb4QTUwH_DVcB8n6LC_kKhUuvkH07ZdT0ay8=w442-h137-no" alt="" /></p>
+
+<p>Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다.</p>
+
+<p>7월에 해당 과정을 마쳤는데 여러모로 바쁘게 시간을 보내서 8월 말이 되어서야 리뷰를 남긴다(그것도 휴가기간에 짬이 생겨서 쓸 수 있게 되었다).</p>
+
+<p><a href="https://www.coursetalk.com">Coursetalks MOOCs</a>라는 사이트와 <a href="https://www.quora.com/Reviews-of-Coursera-Data-Science-Specialization-Track">qua.com의 게시글</a> 을 보면 Coursera의 Data Science 과정에 대한 비판을 쉽게 찾을 수 있다. 첫번째와 두번째 과정을 만족스럽게 이수했던 입장에서 의아하기도 했고 앞으로 7개의 과목이 남은 시점에서 신경쓰이기도 해서 게시글을 살펴보기 시작했다(난 아무래도 팔랑귀인거 같다).</p>
+
+<p>비판의 주된 의견은 대략 2가지였다. 강의 구성이 별로다라는 것과 과제가 불친절(?)하다는 것이다. 강의 구성이 별로다라는 비판은 MOOC가 기존의 온라인강의와 차별되는 점인 다양한 학습 방법들은 배제된 채 동영상 강의가 전부라는 것이다. Coursera의 Data Science 과목들의 강의 구성은 동영상 강의 + 퀴즈 + 프로젝트 과제 로 이루어져 있는데, 사실 이 조합을 벗어나는 참신한 온라인 강의가 있을까 싶다. 게다가 Discussion 게시판을 통한 퀴즈와 프로젝트 과제에 대한 의견이 오가는 것을 보면 온라인으로 제공할 수 있는 교육의 기회와 요소들은 전부 갖춘 것은 아닌가 싶다.</p>
+
+<p>과제가 불친절하다는 비판에는 수긍했다. 특히 이번 과목인 Getting and Cleaning Data의 경우에는 과제의 산출물로 무엇을 제출하라는 것인지도 이해하기 힘들었다(내 영어 실력이 부족해서인가 싶었지만 토론 게시판에서 영어권 학생들도 헷갈려하는 것을 보면 언어의 문제는 아닌 듯 싶다). 이번 과목은 Roger Peng교수가 아닌 Jeff Leek 교수가 강의를 했는데 동영상 강의도 단순히 슬라이드를 넘기며 설명하는 단순한 방식이였고, 프로젝트 과제에 대한 지문도 너무 간결했다. 더 간단한 과제였던 R Programming의 프로젝트의 경우 산출물의 일부 예시를 보여주고 실수할 수 있는 부분들을 사전에 설명해 주는 등 과제에 대한 가이드가 충실했었다.</p>
+
+<p>공부는 스스로 하는 것이라는 내 개인적인 신념으로는 사실 과제에 대한 안내가 불친절하다는 것이 이 과목에 대한 단점은 아니였다. 하지만 일반적인 관점에서 다른 과목들과 비교했을 때에는 Getting and Cleaning Data의 프로젝트 과제는 비판받기에는 충분했다.</p>
+
+<p>R Programming에 비해서 난이도가 크게 올라갔다. 프로젝트 과제 뿐만 아니라 각 퀴즈마다 직접 데이터를 매만져서 답을 골라야 하는 문제들인데 이것들도 쉽지 않았다. 이제 Data Science라는 문을 열고 들어간 느낌이 들었던 한달이였다(한달에 한과목씩 Data Science의 과목을 듣고 있습니다).</p>
+
+    </div>
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f&text=Coursera%20Getting%20and%20Cleaning%20Data%20%eb%a6%ac%eb%b7%b0&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f4%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/mooc'>MOOC</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://tansansu.github.io/blog/2/"
+                class="button big previous">Coursera Data Scientist&#39;s Toolbox 리뷰</a></li>
+    
+
+    
+        <li><a href="http://tansansu.github.io/blog/5/"
+                class="button big next">Coursera Exploratory Data Analysis/Reproducible Research 리뷰</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'tansans';
+    var disqus_identifier = 'http:\/\/tansansu.github.io\/blog\/4\/';
+    var disqus_title = 'Coursera Getting and Cleaning Data 리뷰';
+    var disqus_url = 'http:\/\/tansansu.github.io\/blog\/4\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/logo.jpg" alt="tansansu" /></a>
+                
+            
+            
+                <header>
+                    <h2>tansansu&#39;s Home</h2>
+                    <p>A Carbonated Thinking about the 'Data Science'<i class='fa fa-hand-peace-o'></i></p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://tansansu.github.io/blog/13/">Coursera Capstone Project 리뷰</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-06-05'>
+                                    June 5, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://tansansu.github.io/blog/12/">Coursera의 1만불 Master Degree</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-03-08'>
+                                    March 8, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mooc/">MOOC</a>
+                                <span style="float:right;">9</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tips/">TIPS</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/analysis/">Analysis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/opinion/">Opinion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/tansansu" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:freelunacy@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; tansansu. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+
+        
+            
+                
+                    <script src="/js/main.min.js"></script>
+                
+            
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+
