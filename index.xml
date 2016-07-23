@@ -11,10 +11,10 @@
     
     <item>
       <title>Coursera Capstone Project 리뷰</title>
-      <link>http://tansansu.github.io/2016-06-05-review-of-Coursera-Capstone/</link>
+      <link>http://tansansu.github.io/blog/13/</link>
       <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2016-06-05-review-of-Coursera-Capstone/</guid>
+      <guid>http://tansansu.github.io/blog/13/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;capstone.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;지난 4월에 &lt;strong&gt;Capstone Project&lt;/strong&gt;를 끝으로 &lt;strong&gt;Data Science Specialization&lt;/strong&gt; 과정을 끝냈습니다. 약 1년(정확히는 11개월; Capstone Project는 다른 과목들과 다르게 매달 있는 것이 아니라 1년에 2번 정도 과목이 열리는 것 같고 이번에는 3월에 열렸습니다)이 걸렸습니다. 주제는 Swift key와 같이 하는 Next word prediction 입니다(주제가 바뀌기를 내심 기대했지만 바뀌지 않았습니다 -0-;).&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>Coursera의 1만불 Master Degree</title>
-      <link>http://tansansu.github.io/2016-03-08-coursera-master-degree/</link>
+      <link>http://tansansu.github.io/blog/12/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2016-03-08-coursera-master-degree/</guid>
+      <guid>http://tansansu.github.io/blog/12/</guid>
       <description>&lt;p&gt;얼마 전 Coursera에서 이메일 한통이 왔습니다. 매주 보내는 추천 강의 이메일인가 싶었는데, 설문을 요청하는 메일이였습니다. Coursera에서 강의를 들을 때 처음 시작하는 주와 마지막 주에 설문해달라는 메일이 온적은 있었는데, 지금처럼 아무 강의도 듣지 않을 때 설문 요청 메일이 온 적은 처음이였습니다. 게다가 설문 요청도 강의하는 기관(내지 학교)로부터 온 것이 아니고 Coursera로부터 온 것이였고요.&lt;/p&gt;
 
 &lt;p&gt;이런 설문조사는 곧장 휴지통에 버려버리는데 호기심이 생겨서 한 번 해봤습다. 캡쳐하지 못한 것이 아쉬운데 일단 질문은 5개정도 되었던거 같아요.&lt;/p&gt;
@@ -66,10 +66,10 @@
     
     <item>
       <title>Hugo를 통해 생성한 페이지를 Github에 간단히 연결하기</title>
-      <link>http://tansansu.github.io/2016-02-28-linking-hugo-to-github/</link>
+      <link>http://tansansu.github.io/blog/11/</link>
       <pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2016-02-28-linking-hugo-to-github/</guid>
+      <guid>http://tansansu.github.io/blog/11/</guid>
       <description>
 
 &lt;p&gt;최근 Github에 올리는 블로그 페이지들을 jekyll에서 Hugo로 바꿨습니다. 정적페이지 생성기로 jekyll 외에 여러가지가 있다는 것을 알게 되었고, Hugo는 우연히 인터넷에서 알게 되어 한 번 시도만 해볼까 했는데 결국에는 블로깅 Tool도 바꿔버렸습니다 ^^; 겉으로 보기에는 &lt;em&gt;당연히도&lt;/em&gt; 차이점이 없지만 만족스러운 전환이였습니다.&lt;/p&gt;
@@ -81,13 +81,13 @@
 
 &lt;p&gt;이 외에 jekyll 못지않게 매뉴얼이나 테마 등이 잘 되어 있습니다. 왠만한 테마는 &lt;code&gt;Disqus&lt;/code&gt; 댓글 및 &lt;code&gt;Google Analytics&lt;/code&gt;가 전부 내장되어 있습니다 ^^;&lt;/p&gt;
 
-&lt;h3 id=&#34;hugo의-불편한-점:911e38b943d794aa59f72e3bff9e5ce3&#34;&gt;Hugo의 불편한 점&lt;/h3&gt;
+&lt;h3 id=&#34;hugo의-불편한-점&#34;&gt;Hugo의 불편한 점&lt;/h3&gt;
 
 &lt;p&gt;Hugo가 다 좋은데 한가지 번거로운 점이 있는데, Github의 블로그 계정에 연결하려면 추가 작업이 필요합니다. 빌드하게 되면 폴더 내에 &lt;code&gt;public&lt;/code&gt; 이라는 별도의 폴더가 생성되고, 그 안에 웹페이지가 저장됩니다. 그래서 Hugo 폴더를 Github의 블로그 Repository에 바로 연결하면 웹페이지가 보이지 않습니다. &lt;code&gt;public&lt;/code&gt; 폴더가 연결되야 하기 때문입니다.&lt;/p&gt;
 
 &lt;p&gt;그래서 Hugo의 홈페에지에는 Github의 subtree를 기능을 이용하라고 나와 있습니다. 그 외에 제가 처음 Hugo를 사용할 때 참고한 &lt;a href=&#34;http://cdpython.github.io/tags/github/&#34;&gt;블로그 페이지&lt;/a&gt;에 나온 것처럼 쉘 스크립트를 쓰기도 하구요. 그런데 이것보다 더 간편하다고 생각되는 방법을 소개합니다.&lt;/p&gt;
 
-&lt;h3 id=&#34;public-폴더를-symlink-로-연결하기:911e38b943d794aa59f72e3bff9e5ce3&#34;&gt;&lt;code&gt;Public&lt;/code&gt; 폴더를 &lt;code&gt;Symlink&lt;/code&gt;로 연결하기&lt;/h3&gt;
+&lt;h3 id=&#34;public-폴더를-symlink-로-연결하기&#34;&gt;&lt;code&gt;Public&lt;/code&gt; 폴더를 &lt;code&gt;Symlink&lt;/code&gt;로 연결하기&lt;/h3&gt;
 
 &lt;p&gt;Hugo 폴더 밑에 생성되는 &lt;code&gt;Public&lt;/code&gt; 폴더를 Github의 블로그 Repository와 연동되는 폴더로 Symbolic Link를 걸어주면 간단히 해결됩니다. &lt;em&gt;(Symbolic Link와 관련된 자세한 설명은 웹에 많이 있기 때문에 자세한 설명은 생략하겠습니다)&lt;/em&gt;&lt;/p&gt;
 
@@ -107,10 +107,10 @@
     
     <item>
       <title>Coursera Developing Data Products 리뷰</title>
-      <link>http://tansansu.github.io/2016-02-10-Coursera-Developing-Data-Products-Review/</link>
+      <link>http://tansansu.github.io/blog/10/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2016-02-10-Coursera-Developing-Data-Products-Review/</guid>
+      <guid>http://tansansu.github.io/blog/10/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/hrmFCabFyfFmLm0__jlHzQz5Z3jhuRoja-lgKuOgoKvHNNnf2XIPw2rlBAVSM9zXQ9cUwl4uIkQdCfRFl9cfucvkpF9Z66NV0Fh805OA_4OAuzY0NtW0ykJ4bHU1-DX32o6TkwDddW9CR_cUEQ6vlYBvn0GidnSyNiWngJK3w65YYtL-qnMGPQfSFO0_fXD4qKQ-j0WhM40MQGTivZ92GxVoiDeISlQRf0q_T9rcfxnV9F_Sej0r1XVet7S5_-6e8LpR0S3VOfpbkNZz-JxhBnVYqD_Zr41_iLvqeBhgXXlokQH9kbv_6_o5qP5Iw_dkOOAZQDyxvR6DDCA8C-yaZLM85KUocFHN9v5Y9Zx0UIjrJsVmJa-PWGT5ClKySI5SMFBBUAMhJyGKVjK_KMlZ9Si7ZjI3JkNLvKFi6364zJ6gTmXoIBFO8dnyJosji14lKyg3sDMRqSFCMJtIuEAhjYaR6YII5Qo8DCpIJttmQDjslIquSDf-xxWcu5FCZ977JYDBpacp8kMuapr-NdYF-fl5VlvTNJGZGJVhkL6XugLBBdo6gKm556HDBovS3q4ChznK=w460-h259-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Data Science Specializaton 마지막 강의입니다. Capstone Project라는 마지막 코스가 남아 있지만, 전체 과정을 마무리하는 프로젝트이고 따로 특별한 강의는 없는 것이기 때문에 Developing Data Products가 마지막 코스라고 봐도 무방할 것 같습니다.&lt;/p&gt;
@@ -158,10 +158,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>Coursera Practical Machine Learning 리뷰</title>
-      <link>http://tansansu.github.io/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</link>
+      <link>http://tansansu.github.io/blog/9/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2016-01-11-Coursera-Practical-Machine-Learning-review%20copy/</guid>
+      <guid>http://tansansu.github.io/blog/9/</guid>
       <description>&lt;p&gt;Coursera의 Data Science Specialization 8번째 과목 &amp;lsquo;Practical Machine Learning&amp;rsquo; 수강 리뷰입니다.&lt;/p&gt;
 
 &lt;p&gt;작년 4월부터 시작해서 한달에 한과목씩 수료하던 Coursera의 Data Science 과정도 막바지에 이르렀네요. 대체 언제 끝나나 하던 지루함도 이제 얼른 끝내고 싶은 조바심으로 바뀌었습니다. 이 과정을 수료하는 중간에 여러 사이트에서 더 좋은 온라인 강의들도 많이 알게 되어서 이걸 포기하고 다른 수업으로 갈아탈까 하는 마음도 있었습니다. 하지만, 과목당 49$ 정도의 적지 않은 돈을 몇개월 투자한 덕분에 끝까지 수료하기로 맘을 먹게 되었습니다 ㅎㅎ 의지가 약한 분들에게는 수료증이 수료증 이상의 값을 할 수 있다고 봅니다.&lt;/p&gt;
@@ -189,10 +189,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>GMail에서 전체 메일 한 번에 지우기</title>
-      <link>http://tansansu.github.io/2015-12-20-To-remove-all-emails-in-gmail-at-once/</link>
+      <link>http://tansansu.github.io/blog/8/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-12-20-To-remove-all-emails-in-gmail-at-once/</guid>
+      <guid>http://tansansu.github.io/blog/8/</guid>
       <description>&lt;p&gt;이메일에서 광고메일을 한 번도 삭제하지 않고 쓰는 사람들이 있다. 스마트폰의 이메일 아이콘 우측 상단에 &amp;lsquo;4572&amp;rsquo; 같은 숫자가 떠 있는 것처럼 읽지 않은 메일이 엄청나게 쌓여 있는 경우도 많이 보았다. 카테고리 혹은 라벨을 여러개로 만들어서 Inbox로 들어온 메일을 자동(혹은 수동)으로 분류해서 정리하는 나같은 Geek들은 지켜보는 것도 참기 힘든 상황이랄까.&lt;/p&gt;
 
 &lt;p&gt;그러다가 우연히 알게 된 사실인데, GMail을 쓰는 사람들 중에서 오래된 이메일을 묵힌 상태로 쓰고 있는 이유가 한번 정리를 안했더니 겉잡을 수 없어서 그대로 두는 사람도 있었다는 사실이다. 왜냐하면, GMail에서는 전체 메일을 한번에 지우는 기능이 없으니까(한 화면에 최대 100개의 이메일을 한 번에 볼 수 있고 최대 100개씩만 이메일을 지울 수 있다).&lt;/p&gt;
@@ -221,10 +221,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>Coursera Statistical Inference/Regression Models 리뷰</title>
-      <link>http://tansansu.github.io/2015-12-07-Coursera-SI-RM-review/</link>
+      <link>http://tansansu.github.io/blog/7/</link>
       <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-12-07-Coursera-SI-RM-review/</guid>
+      <guid>http://tansansu.github.io/blog/7/</guid>
       <description>&lt;p&gt;Statistical Inference 강의부터 체감 난이도가 많이 올라갔다. 퀴즈와 프로젝트는 익숙치 않은 영어로 되어 있어서 무엇을 물어보는지 이해하는데도 시간이 걸렸다. 그 전 과목들의 퀴즈도 3번의 기회 안에 대부분 맞출 수 있었는데, 이 두과목은 그렇지 않았다. 대학원에서 통계학을 미리 공부하지 않고 바로 시도했다면 틀림없이 엄청 헤맸을 것이라 생각된다.&lt;/p&gt;
 
 &lt;p&gt;이 후반부 과목의 난이도가 어려워 졌다는 것은 전에는 보지 못했던 수강생들의 리포트 표절을 경험한 것에서 실감하게 됐다. Statistical Inference와 Regression Models 모두 프로젝트 과제를 수행 후 리포트를 제출해야 했는데, 그전의 프로젝트처럼 단답형으로 주어진 문제의 답을 찾는 과정이 아니라 &amp;lsquo;데이터셋을 분석하고 그 과정을 리포트 하라&amp;rsquo;는 포괄적인 주제였다(물론 리포트 작성은 영어로 해야 했다). Coursera는 과목마다 4명의 동료 학생들을 평가(Peer Assessment)해야 하는데, Regression Models 과목에서 내게 배정된 4명의 학생 중 2명의 리포트가 똑같았다. 친구끼리 수강한 사람들인가 싶어서 리포트의 작성자를 보니 같은 국가라고 하기에는 이름도 느낌이 많이 달랐다(랜덤으로 4명이 배정되는 평가 대상 중 절반이 친구사이일 확률은 얼마나 될까. 그것도 전세계 수강생들 중에서..-0-;).&lt;/p&gt;
@@ -241,10 +241,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>기업에서 빅데이터 분석전문가를 양성하는 방법</title>
-      <link>http://tansansu.github.io/2015-11-20-how-to-foster-Data-Scientists-in-firm/</link>
+      <link>http://tansansu.github.io/blog/6/</link>
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-11-20-how-to-foster-Data-Scientists-in-firm/</guid>
+      <guid>http://tansansu.github.io/blog/6/</guid>
       <description>&lt;p&gt;국내에서 소위 빅데이터가 뜨고 있다고 하지만 몇몇 대기업을 제외하고는 빅데이터를 도입하고 활용하는 기업은 손에 꼽히는 것이 현실이다. 이러한 현상의 원인으로 빅데이터 분석 전문 인력이 없는 것이 가장 큰 원인으로 꼽히고 있다. 국내에 몇 안되는 데이터 분석 전문가를 영입하기 위해서는 대기업의 자본과 명성이 아니고서는 힘든 것이 사실이다. 이러한 문제를 해결하기 위해서 기업에서는 데이터 분석 전문가를 내부에서 양성하는 방안을 생각해 보아야 한다.
  기업에서 빅데이터 분석전문가를 양성하기 위해서는 다음 3가지 요건을 갖추어야 한다.&lt;/p&gt;
 
@@ -262,10 +262,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>Coursera Exploratory Data Analysis/Reproducible Research 리뷰</title>
-      <link>http://tansansu.github.io/2015-11-13-Coursera-EDA-RR-review/</link>
+      <link>http://tansansu.github.io/blog/5/</link>
       <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-11-13-Coursera-EDA-RR-review/</guid>
+      <guid>http://tansansu.github.io/blog/5/</guid>
       <description>&lt;p&gt;이 리뷰를 쓰는 시점은 11월로 위 과목들을 모두 듣고 난 후에 한번에 쓰게 되었다. 기억이 조금 희미해 지는 시점이기도 해서 상세한 후기가 되지는 못할 것 같다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/QvxAPDmogXCCBJtNBYPwwBC9vVxGAMTEWpk7ns8hWUjSc4mFGDYXDC2h44rQRdXh7DPNi7OupwZQAepaajj87crAwX6RVdZVog8t8tHMsZsK9zrZboEqKEgLPvfdYOgQBqItlCdYMnJe0OCzYjdL69h0DLaNItLS_jJquZqQ7fd3yeFbJ7sIVnI21OMNJAfcXDLdxBx-DVbWtBDxcFexUTJNk2vqeahddWXJg_R16m7Ypv6DZ7kiQPoQ6b63-Ta5Xk8qU6uW5Uap6xZqzfHsXUNdg-T5_-Jv4qbzHhK4E6xMVjLSRpnEeNObAaVfb6G7199DRXublpKAu8LZGd7IJbWDAAnPE4ne3dBysncX861-i5mNKzG09p-erJUaE_KPbITT6ysg6mSuUez1ItdbokzIjGDj2xxDRckwaT0wl6rC-cvq-G73LMFi8gQXf0S478MH156hNlRAJbgTx_arx0PJeNSjoB6GWnBZA-Ri9lAGMjwksz745J-GktYQMJuvprxy424rg5tGcDgYtrM4T0_QTjkcgjkK665gNM41Ths=w442-h137-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
@@ -297,10 +297,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>Coursera Getting and Cleaning Data 리뷰</title>
-      <link>http://tansansu.github.io/2015-08-29-Coursera-Getting-and-Cleaning-Data/</link>
+      <link>http://tansansu.github.io/blog/4/</link>
       <pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-08-29-Coursera-Getting-and-Cleaning-Data/</guid>
+      <guid>http://tansansu.github.io/blog/4/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/bFkMhZrVb4QTUwH_DVcB8n6LC_kKhUuvkH07ZdT0ay8=w442-h137-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다.&lt;/p&gt;
@@ -321,10 +321,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>Coursera Data Scientist&#39;s Toolbox 리뷰</title>
-      <link>http://tansansu.github.io/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</link>
+      <link>http://tansansu.github.io/blog/2/</link>
       <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-06-21-Coursera-Data-Scientist%27s-Toolbox-Review/</guid>
+      <guid>http://tansansu.github.io/blog/2/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/IK06io568EqktTe8fl84d1j8GGXrlnpP9UPaxzuK80k=w400-h120-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Coursera의 Data Science Specialized 코스 중 첫 번째를 마쳤다. 우연한 기회에 지인의 추천으로 시작하게 되었고, 언어(영어)의 압박으로 그만둘까 싶은 적도 있었다. 데이터분석을 하겠다고 맘을 먹고 꽤 긴 시간을 자습했지만 별다른 기술이나 체계가 좀처럼 잡히지 않았기에, 총 9개의 과목으로 이뤄진 과정을 한 달에 하나씩 수료하겠다고 맘을 먹고 도전했다. 막연하게 시작했을 때는 괴롭고 힘든 것이 목표를 세우니 의욕이 생겼고 흥겨운 스트레스가 되었다.&lt;/p&gt;
@@ -341,10 +341,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>Coursera R Programming 리뷰</title>
-      <link>http://tansansu.github.io/2015-08-03-Coursera-R_Programming-review/</link>
+      <link>http://tansansu.github.io/blog/3/</link>
       <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-08-03-Coursera-R_Programming-review/</guid>
+      <guid>http://tansansu.github.io/blog/3/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/PWWg4pUIlmPAmofhVkihovuTn1U5L66YTOYFOsWikvw=w442-h137-no&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Coursera의 Data Science 코스의 두번째 강좌를 마쳤다. 퀴즈와 과제의 난이도가 지난번보다 대폭 올라가고 양이 많아져서  초반에 조금 당황했다(물론 첫번째 코스인 Toolbox는 정식 강좌라 보기 힘든 과정이긴 하다). 함수 작성하는 과제도 처음에는 막막했는데 코스 내 Discussion게시판을 활용해서 도움을 얻었고 그 후부터는 스스로 과제를 완성할 수 있었다.&lt;/p&gt;
@@ -364,10 +364,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>미군부대 지역 LTE 트래픽 분석</title>
-      <link>http://tansansu.github.io/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</link>
+      <link>http://tansansu.github.io/blog/1/</link>
       <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/2015-05-21-Analysis-of-lte-traffic-in-us-army-areas/</guid>
+      <guid>http://tansansu.github.io/blog/1/</guid>
       <description>&lt;p&gt;LTE 기지국 분석 작업을 하던 중 눈에 띄는 현상을 마주하게 됐다.
 오후 6시만 지나면 LTE 기지국의 부하(트래픽 사용량)가 높아지는 지역이 존재하는 것이다. 가입자가 많은 지역이면 모르겠는데, 가입자가 많지 않은 외곽지역 들도 상당수 포함되어 있었다. 특히 동두천, 평택, 의정부 지역은 거의 항상 오후 6시 이후에 LTE 트래픽이 증가하여 기지국의 용량에 근접하곤 했다. 이 이슈에 대해 분석 했던 내용이다.&lt;/p&gt;
 
@@ -383,10 +383,10 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
     
     <item>
       <title>About Me</title>
-      <link>http://tansansu.github.io/aboutme/</link>
+      <link>http://tansansu.github.io/about/</link>
       <pubDate>Fri, 10 Feb 1984 00:00:00 +0000</pubDate>
       
-      <guid>http://tansansu.github.io/aboutme/</guid>
+      <guid>http://tansansu.github.io/about/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;E-mail : freelunacy@gmail.com&lt;/li&gt;
 &lt;li&gt;github : &lt;a href=&#34;http://www.github.com/tansansu&#34;&gt;http://www.github.com/tansansu&lt;/a&gt;&lt;/li&gt;
