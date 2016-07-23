@@ -1,0 +1,659 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Coursera Statistical Inference/Regression Models 리뷰</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.16" />
+        
+    
+        
+    
+
+    
+
+    <link rel="apple-touch-icon-precomposed"
+        href='/favicon/apple-touch-icon-precomposed.png'>
+    <link rel="icon" href='/favicon/favicon.png'>
+    
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage"
+        content='/favicon/mstile.png'>
+
+
+
+        
+        
+            
+                <meta name="description" content="A Carbonated Thinking about the &#39;Data Science&#39;">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Coursera Statistical Inference/Regression Models 리뷰"/>
+<meta name="twitter:description" content="Statistical Inference 강의부터 체감 난이도가 많이 올라갔다. 퀴즈와 프로젝트는 익숙치 않은 영어로 되어 있어서 무엇을 물어보는지 이해하는데도 시간이 걸렸다. 그 전 과목들의 퀴즈도 3번의 기회 안에 대부분 맞출 수 있었는데, 이 두과목은 그렇지 않았다. 대학원에서 통계학을 미리 공부하지 않고 바로 시도했다면 틀림없이 엄청 헤맸을 것이라 생각된다. 이 후반부 과목의 난이도가 어려워 졌다는 것은 전에는 보지 못했던 수강생들의 리포트 표절을 경험한 것에서 실감하게 됐다. Statistical Inference와 Regression Models 모두 프로젝트 과제를 수행 후 리포트를 제출해야 했는데, 그전의 프로젝트처럼 단답형으로 주어진 문제의 답을 찾는 과정이 아니라 &lsquo;데이터셋을 분석하고 그 과정을 리포트 하라&rsquo;는 포괄적인 주제였다(물론 리포트 작성은 영어로 해야 했다)."/>
+
+
+
+        <meta property="og:title" content="Coursera Statistical Inference/Regression Models 리뷰" />
+<meta property="og:description" content="Statistical Inference 강의부터 체감 난이도가 많이 올라갔다. 퀴즈와 프로젝트는 익숙치 않은 영어로 되어 있어서 무엇을 물어보는지 이해하는데도 시간이 걸렸다. 그 전 과목들의 퀴즈도 3번의 기회 안에 대부분 맞출 수 있었는데, 이 두과목은 그렇지 않았다. 대학원에서 통계학을 미리 공부하지 않고 바로 시도했다면 틀림없이 엄청 헤맸을 것이라 생각된다. 이 후반부 과목의 난이도가 어려워 졌다는 것은 전에는 보지 못했던 수강생들의 리포트 표절을 경험한 것에서 실감하게 됐다. Statistical Inference와 Regression Models 모두 프로젝트 과제를 수행 후 리포트를 제출해야 했는데, 그전의 프로젝트처럼 단답형으로 주어진 문제의 답을 찾는 과정이 아니라 &lsquo;데이터셋을 분석하고 그 과정을 리포트 하라&rsquo;는 포괄적인 주제였다(물론 리포트 작성은 영어로 해야 했다)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tansansu.github.io/blog/7/" />
+
+
+<meta property="og:updated_time" content="2015-12-07T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Coursera Statistical Inference/Regression Models 리뷰">
+<meta itemprop="description" content="Statistical Inference 강의부터 체감 난이도가 많이 올라갔다. 퀴즈와 프로젝트는 익숙치 않은 영어로 되어 있어서 무엇을 물어보는지 이해하는데도 시간이 걸렸다. 그 전 과목들의 퀴즈도 3번의 기회 안에 대부분 맞출 수 있었는데, 이 두과목은 그렇지 않았다. 대학원에서 통계학을 미리 공부하지 않고 바로 시도했다면 틀림없이 엄청 헤맸을 것이라 생각된다. 이 후반부 과목의 난이도가 어려워 졌다는 것은 전에는 보지 못했던 수강생들의 리포트 표절을 경험한 것에서 실감하게 됐다. Statistical Inference와 Regression Models 모두 프로젝트 과제를 수행 후 리포트를 제출해야 했는데, 그전의 프로젝트처럼 단답형으로 주어진 문제의 답을 찾는 과정이 아니라 &lsquo;데이터셋을 분석하고 그 과정을 리포트 하라&rsquo;는 포괄적인 주제였다(물론 리포트 작성은 영어로 해야 했다).">
+
+
+<meta itemprop="dateModified" content="2015-12-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="258">
+
+
+
+<meta itemprop="keywords" content="Analysis,MOOC,Opinion,TIPS,Big Data,Coursera,Data Science,GMail,Github,Hugo," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+
+        
+            
+                
+                    <link rel="stylesheet" href="/css/main.min.css" />
+                
+            
+        
+
+        
+        
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-71104293-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">tansansu&#39;s Home</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://tansansu.github.io/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://tansansu.github.io/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://tansansu.github.io/blog/13/"><p>Coursera Capstone Project 리뷰</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://tansansu.github.io/blog/12/"><p>Coursera의 1만불 Master Degree</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f&text=Coursera%20Statistical%20Inference%2fRegression%20Models%20%eb%a6%ac%eb%b7%b0&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://tansansu.github.io/blog/7/">Coursera Statistical Inference/Regression Models 리뷰</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2015-12-07'>
+            December 7, 2015</time>
+        <span class="author"></span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    
+
+    <div id="content">
+        <p>Statistical Inference 강의부터 체감 난이도가 많이 올라갔다. 퀴즈와 프로젝트는 익숙치 않은 영어로 되어 있어서 무엇을 물어보는지 이해하는데도 시간이 걸렸다. 그 전 과목들의 퀴즈도 3번의 기회 안에 대부분 맞출 수 있었는데, 이 두과목은 그렇지 않았다. 대학원에서 통계학을 미리 공부하지 않고 바로 시도했다면 틀림없이 엄청 헤맸을 것이라 생각된다.</p>
+
+<p>이 후반부 과목의 난이도가 어려워 졌다는 것은 전에는 보지 못했던 수강생들의 리포트 표절을 경험한 것에서 실감하게 됐다. Statistical Inference와 Regression Models 모두 프로젝트 과제를 수행 후 리포트를 제출해야 했는데, 그전의 프로젝트처럼 단답형으로 주어진 문제의 답을 찾는 과정이 아니라 &lsquo;데이터셋을 분석하고 그 과정을 리포트 하라&rsquo;는 포괄적인 주제였다(물론 리포트 작성은 영어로 해야 했다). Coursera는 과목마다 4명의 동료 학생들을 평가(Peer Assessment)해야 하는데, Regression Models 과목에서 내게 배정된 4명의 학생 중 2명의 리포트가 똑같았다. 친구끼리 수강한 사람들인가 싶어서 리포트의 작성자를 보니 같은 국가라고 하기에는 이름도 느낌이 많이 달랐다(랜덤으로 4명이 배정되는 평가 대상 중 절반이 친구사이일 확률은 얼마나 될까. 그것도 전세계 수강생들 중에서..-0-;).</p>
+
+<p>나만 그런가 싶어서 토론게시판을 살펴봤더니 이미 리포트 표절과 관련해서 긴 토론이 진행되고 있었다. 점수를 0점으로 줘야 하냐 말아야 하냐부터 솔루션이 크게 차이가 나지 않는데 표절을 확신할 수 있는가 하는 등 여러 논의가 있었다. 그 글 중에서 Coursera에 표절행위를 신고할 수 있다는 규정과 방법을 알게 되어서 나도 해당 2명을 표절의심으로 신고하였다. Signature Track으로 수강하는 사람으로서 대단한 Certificate는 아니지만 정직하게 노력한 사람들과 Coursera를 비롯한 MOOC의 발전에 해가 되는 행위라고 생각되었기 때문이다.</p>
+
+<p><img src="https://lh3.googleusercontent.com/fflhRtr7QWjyOyaFa-v8zDo0wZwtD6c3NKnBWRU_IkR1rfehf5YK79cQ_NMrOm0Qv3Kk9byYpnv-S8GCvlznqbRhDfKoi8dZkiyLfmk4o19N4snyxQmFYWSpFNXYttk4WKBOM7G_ehCKXUcAU1vALwtHWW9FpukkNXI8zC73PfUkCyrOqA1U7JoDDYx7ZFKScp215MU-nKayirp5RDtXgS06VxmmY51f5nmOnssNf3pFKRPY-uw0Fr7WcRHc7WlwYeMCsahZcxbcGlYHxPDF5fsCSXDL34WJJwAC450zvwkiz-kGHn_oQVVrWIJzbbyVfsKNP6qIsjuNbTZHBdw2PjFbe5ybiwIBrpCYIXsVLLf_GlN9DmZ_zhfcS0QNgdC3O2pC9dFpL-6Pq8WmvsnETMDIR37tdzVZH6JibtCiyyc90hGOxSLL_kjpz1vRTJHE73JmSc_j8yzUmGw-2l6XYs8TiuNLE1NsH87Wv68ncJHk5LwrZS8SoRgh5OjbN06B-b7ezGeVAGkeZefPHcHeBbiLkreY5zqsIzN--jQkFjM=w800-h200-no" alt="" /></p>
+
+<p><img src="https://lh3.googleusercontent.com/59VhZuqNAb1sjlrLcd0hwDHxo3fGP1hhIjTTRdJJzhzAMZquH8RSaRljlX4HJg70ZzPWBWa9ATQogV4gldas4j5tVtTto8RnRrZbg6EWoPKVwXUtQoiFxfu21xZ7fizL9vD8vlPfwXo-AYf6nZZmyLCb8qkm5lmCrL5hCSo3sga6weFLMzCBN1DeA7VAhqazGDlMlzOX2VBI_7hmfs9Knu5LKHmR_5EyxTpwNIu7Z9v-Q57x-VTlEveNMMsn9bh-RPo4IjirdobjtsndVTd47EaRsvToh-zp7SZZuM3m10r6WlRE0PqR2IW_4IsW7hKfg8JURfx9Iqvsyj2yvcXGwFL7dg73QOZJIrECvnDdpt5fJUFfglhsCJKI1rfj8YWerFL4I7hanoRxuRVyliDUdClwFBUtFpgVxpjSP1QMM-WmeajD2PmuoXuGwmMY_RjcHEgyUB7oZsaeXB5wZjHpou6T2B2UKSNhEk7SlCjakzEBc2duUbHpRWRN4F4MnpRHXVpdYLODofQZE8-6r_gsUgS--bmIiBkGqqUGwPnHdMw=w800-h1200-no" alt="" /></p>
+
+<p>이 두과목을 들으면서 데이터 사이언스 커리큘럼에 대해 느끼는 점은 이렇다. 초반부는 R 프로그래밍을 통한 코딩 및 데이터 조작 훈련이였다면, 후반부는 통계학을 습득하여 분석에 적용하는 부분이다. 데이터 과학의 두 축에는 IT기술(코딩 등)과 통계지식이 있다면 IT기술은 기초에 해당하는 부분이고, 데이터 사이언티스트를 완성시키는 것은 통계지식을 익히는 것이라 생각된다.</p>
+
+    </div>
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f&text=Coursera%20Statistical%20Inference%2fRegression%20Models%20%eb%a6%ac%eb%b7%b0&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f7%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/mooc'>MOOC</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://tansansu.github.io/blog/6/"
+                class="button big previous">기업에서 빅데이터 분석전문가를 양성하는 방법</a></li>
+    
+
+    
+        <li><a href="http://tansansu.github.io/blog/8/"
+                class="button big next">GMail에서 전체 메일 한 번에 지우기</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'tansansu';
+    var disqus_identifier = 'http:\/\/tansansu.github.io\/blog\/7\/';
+    var disqus_title = 'Coursera Statistical Inference\/Regression Models 리뷰';
+    var disqus_url = 'http:\/\/tansansu.github.io\/blog\/7\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="/img/main/logo.jpg" alt="tansansu" /></a>
+                
+            
+            
+                <header>
+                    <h2>tansansu&#39;s Home</h2>
+                    <p>A Carbonated Thinking about the 'Data Science'<i class='fa fa-hand-peace-o'></i></p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://tansansu.github.io/blog/13/">Coursera Capstone Project 리뷰</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-06-05'>
+                                    June 5, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://tansansu.github.io/blog/12/">Coursera의 1만불 Master Degree</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-03-08'>
+                                    March 8, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mooc/">MOOC</a>
+                                <span style="float:right;">9</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/tips/">TIPS</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/analysis/">Analysis</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/opinion/">Opinion</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/tansansu" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:freelunacy@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; tansansu. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+
+        
+            
+                
+                    <script src="/js/main.min.js"></script>
+                
+            
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+
