@@ -26,7 +26,8 @@
 
 &lt;p&gt;&lt;strong&gt;Capstone Project&lt;/strong&gt; 과목은 특히 퀴즈가 어려웠던 거 같습니다. 문장의 일부가 나오고 그 다음에 나올 만한 단어들이 보기로 나오는데, 프로젝트 완성물 제출 한참 전에 Next Word Prediction 앱의 알고리즘을 만들어야 풀 수 있는 문제입니다. 알고리즘으로는 보기의 단어들이 나타나지 않아서 영어의 문맥을 파악해서 눈치껏 풀어보려고 해도 결과가 신통치 않았습니다. 퀴즈는 여러번 풀 수 있기 때문에 여러번 시도한 후에 답을 맞출 수는 있겠지만, 어떻게 알고리즘을 만들어야 답에 해당하는 단어가 예측되는지는 해결하기 힘들었습니다.ㅠㅠ&lt;/p&gt;
 
-&lt;p&gt;저는 최종 결과물을 가장 쉬운 모델이라는 *Back-off model*로 만들었습니다(좀 고차원적인 모델을 만들고 싶었지만 일과 대학원 수업에 MOOC까지 동시에 병행하기에 시간이 모잘랐다는 핑계를..ㅠㅠ). 구글링을 해보면 베이지안을 적용한 경우도 있었습니다. 결과적으로 저는 train set 정확도 50.6%, test set 정확도 21.5% 라는 몹쓸 결과를 보였습니다. -0-; &lt;a href=&#34;https://tansansu.shinyapps.io/Next_Word_Prediction/&#34;&gt;[제 Web app 링크]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;저는 최종 결과물을 가장 쉬운 모델이라는 *Back-off model*로 만들었습니다(좀 고차원적인 모델을 만들고 싶었지만 일과 대학원 수업에 MOOC까지 동시에 병행하기에 시간이 모잘랐다는 핑계를..ㅠㅠ). 구글링을 해보면 베이지안을 적용한 경우도 있었습니다. 결과적으로 저는 train set 정확도 50.6%, test set 정확도 21.5% 라는 몹쓸 결과를 보였습니다. -0-;&lt;br /&gt;
+&lt;a href=&#34;https://tansansu.shinyapps.io/Next_Word_Prediction/&#34;&gt;[제 Web app 링크]&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;알고리즘만 만들고 나면 결과물 webapp을 만드는 것은 쉬울 줄 알았습니다. 그런데 고려해야 할 것이 shinyapps.io라는 사이트에서 추천 단어가 표시되는 lead time 이였습니다. 무료로 제공되는 계정이기에 서버자원도 속도가 빠르지 않았기에 sample data를 크게 잡을 수 없었습니다. text 파일로 제공되는(약 500mb 정도) raw data를 전부 사용할 수 없기 때문에 sampling을 해야 했는데 알고리즘의 속도와 정확도의 균형을 맞추면서 어느 수준의 sampling을 해야 하는지 고민해야 했구요. 이 과제의 파트너사인 swift key를 비롯해 스마트폰의 몇메가 수준의 키보드 앱들은 어떤 식으로 알고리즘이 구현되었는지 궁금할 따름입니다.&lt;/p&gt;
 
@@ -74,7 +75,7 @@
 
 &lt;p&gt;최근 Github에 올리는 블로그 페이지들을 jekyll에서 Hugo로 바꿨습니다. 정적페이지 생성기로 jekyll 외에 여러가지가 있다는 것을 알게 되었고, Hugo는 우연히 인터넷에서 알게 되어 한 번 시도만 해볼까 했는데 결국에는 블로깅 Tool도 바꿔버렸습니다 ^^; 겉으로 보기에는 &lt;em&gt;당연히도&lt;/em&gt; 차이점이 없지만 만족스러운 전환이였습니다.&lt;/p&gt;
 
-&lt;p&gt;제가 생각하는 Hogo의 장점은
+&lt;p&gt;제가 생각하는 Hogo의 장점은&lt;br /&gt;
 &amp;gt; 1. &lt;strong&gt;설치과정이 쉽다.&lt;/strong&gt; 저는 mac에서 jekyll을 설치하고 사용했는데, jekyll을 설치하는 과정이 복잡하고 번거로웠습니다. 반면에, Hugo는 &lt;em&gt;mac 기준으로&lt;/em&gt; home brew를 설치했다면 &lt;code&gt;brew install hugo&lt;/code&gt; 명령어만으로 모든 설치가 끝납니다.
 &amp;gt;
 2. &lt;strong&gt;페이지 생성 속도가 빠르다.&lt;/strong&gt; Hugo가 Jekyll보다 확실히 페이지 빌드 속도가 빠릅니다. 포스팅이 20개도 안되는 제 블로그지만 Hugo로 빌드하는데 43ms 정도 걸리네요. jekyll에서는 1초 정도는 걸렸던 거 같습니다.&lt;/p&gt;
@@ -92,12 +93,12 @@
 &lt;p&gt;Hugo 폴더 밑에 생성되는 &lt;code&gt;Public&lt;/code&gt; 폴더를 Github의 블로그 Repository와 연동되는 폴더로 Symbolic Link를 걸어주면 간단히 해결됩니다. &lt;em&gt;(Symbolic Link와 관련된 자세한 설명은 웹에 많이 있기 때문에 자세한 설명은 생략하겠습니다)&lt;/em&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mac에서 Symlink 생성하기&lt;/strong&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mac에서 Symlink 생성하기&lt;/strong&gt;&lt;br /&gt;
 &lt;code&gt;ln -s &amp;quot;타겟폴더 경로(Public 폴더 경로)&amp;quot; &amp;quot;Github와 연결할 폴더 경로&amp;quot;&lt;/code&gt;
-예를 들면 이렇게 하면 됩니다. &lt;code&gt;ln -s /Users/계정명/Hugo/public /Users/계정명/xxx.github.io&lt;/code&gt;
+예를 들면 이렇게 하면 됩니다. &lt;code&gt;ln -s /Users/계정명/Hugo/public /Users/계정명/xxx.github.io&lt;/code&gt;&lt;br /&gt;
 (위의 &amp;ldquo;xxx.github.io&amp;rdquo;는 Github에 생성된 블로그 Repository명 입니다.)&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Windows에서 Symlink 생성하기&lt;/strong&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Windows에서 Symlink 생성하기&lt;/strong&gt;&lt;br /&gt;
 &lt;code&gt;mklink /j &amp;quot;타겟폴더 경로(Public 폴더 경로)&amp;quot; &amp;quot;Github와 연결할 폴더 경로&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 

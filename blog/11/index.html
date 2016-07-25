@@ -314,7 +314,7 @@ ga('send', 'pageview');
 
 <p>최근 Github에 올리는 블로그 페이지들을 jekyll에서 Hugo로 바꿨습니다. 정적페이지 생성기로 jekyll 외에 여러가지가 있다는 것을 알게 되었고, Hugo는 우연히 인터넷에서 알게 되어 한 번 시도만 해볼까 했는데 결국에는 블로깅 Tool도 바꿔버렸습니다 ^^; 겉으로 보기에는 <em>당연히도</em> 차이점이 없지만 만족스러운 전환이였습니다.</p>
 
-<p>제가 생각하는 Hogo의 장점은
+<p>제가 생각하는 Hogo의 장점은<br />
 &gt; 1. <strong>설치과정이 쉽다.</strong> 저는 mac에서 jekyll을 설치하고 사용했는데, jekyll을 설치하는 과정이 복잡하고 번거로웠습니다. 반면에, Hugo는 <em>mac 기준으로</em> home brew를 설치했다면 <code>brew install hugo</code> 명령어만으로 모든 설치가 끝납니다.
 &gt;
 2. <strong>페이지 생성 속도가 빠르다.</strong> Hugo가 Jekyll보다 확실히 페이지 빌드 속도가 빠릅니다. 포스팅이 20개도 안되는 제 블로그지만 Hugo로 빌드하는데 43ms 정도 걸리네요. jekyll에서는 1초 정도는 걸렸던 거 같습니다.</p>
@@ -332,12 +332,12 @@ ga('send', 'pageview');
 <p>Hugo 폴더 밑에 생성되는 <code>Public</code> 폴더를 Github의 블로그 Repository와 연동되는 폴더로 Symbolic Link를 걸어주면 간단히 해결됩니다. <em>(Symbolic Link와 관련된 자세한 설명은 웹에 많이 있기 때문에 자세한 설명은 생략하겠습니다)</em></p>
 
 <ol>
-<li><p><strong>Mac에서 Symlink 생성하기</strong>
+<li><p><strong>Mac에서 Symlink 생성하기</strong><br />
 <code>ln -s &quot;타겟폴더 경로(Public 폴더 경로)&quot; &quot;Github와 연결할 폴더 경로&quot;</code>
-예를 들면 이렇게 하면 됩니다. <code>ln -s /Users/계정명/Hugo/public /Users/계정명/xxx.github.io</code>
+예를 들면 이렇게 하면 됩니다. <code>ln -s /Users/계정명/Hugo/public /Users/계정명/xxx.github.io</code><br />
 (위의 &ldquo;xxx.github.io&rdquo;는 Github에 생성된 블로그 Repository명 입니다.)</p></li>
 
-<li><p><strong>Windows에서 Symlink 생성하기</strong>
+<li><p><strong>Windows에서 Symlink 생성하기</strong><br />
 <code>mklink /j &quot;타겟폴더 경로(Public 폴더 경로)&quot; &quot;Github와 연결할 폴더 경로&quot;</code></p></li>
 </ol>
 
