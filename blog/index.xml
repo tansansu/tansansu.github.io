@@ -73,16 +73,16 @@
       <guid>http://tansansu.github.io/blog/11/</guid>
       <description>
 
-&lt;p&gt;최근 Github에 올리는 블로그 페이지들을 jekyll에서 Hugo로 바꿨습니다. 정적페이지 생성기로 jekyll 외에 여러가지가 있다는 것을 알게 되었고, Hugo는 우연히 인터넷에서 알게 되어 한 번 시도만 해볼까 했는데 결국에는 블로깅 Tool도 바꿔버렸습니다 ^^; 겉으로 보기에는 &lt;em&gt;당연히도&lt;/em&gt; 차이점이 없지만 만족스러운 전환이였습니다.&lt;/p&gt;
+&lt;p&gt;최근 Github에 올리는 블로그 페이지들을 jekyll에서 Hugo로 바꿨습니다. 정적페이지 생성기로 jekyll 외에 여러가지가 있다는 것을 알게 되었고, Hugo는 우연히 인터넷에서 알게 되어 한 번 시도만 해볼까 했는데 결국에는 블로깅 Tool도 바꿔버렸습니다 ^^; 겉으로 보기에는 &lt;strong&gt;당연히도&lt;/strong&gt; 차이점이 없지만 만족스러운 전환이였습니다.&lt;/p&gt;
 
 &lt;p&gt;제가 생각하는 Hogo의 장점은&lt;br /&gt;
-1. &lt;strong&gt;설치과정이 쉽다.&lt;/strong&gt; 저는 mac에서 jekyll을 설치하고 사용했는데, jekyll을 설치하는 과정이 복잡하고 번거로웠습니다. 반면에, Hugo는 &lt;em&gt;mac 기준으로&lt;/em&gt; home brew를 설치했다면 &lt;code&gt;brew install hugo&lt;/code&gt; 명령어만으로 모든 설치가 끝납니다.&lt;/p&gt;
+1. &lt;strong&gt;설치과정이 쉽다.&lt;/strong&gt; 저는 mac에서 jekyll을 설치하고 사용했는데, jekyll을 설치하는 과정이 복잡하고 번거로웠습니다. 반면에, Hugo는 &lt;strong&gt;mac 기준으로&lt;/strong&gt; home brew를 설치했다면 &lt;code&gt;brew install hugo&lt;/code&gt; 명령어만으로 모든 설치가 끝납니다.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;페이지 생성 속도가 빠르다.&lt;/strong&gt; Hugo가 Jekyll보다 확실히 페이지 빌드 속도가 빠릅니다. 포스팅이 20개도 안되는 제 블로그지만 Hugo로 빌드하는데 43ms 정도 걸리네요. jekyll에서는 1초 정도는 걸렸던 거 같습니다.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;이 외에 jekyll 못지않게 매뉴얼이나 테마 등이 잘 되어 있습니다. 왠만한 테마는 &lt;em&gt;Disqus&lt;/em&gt; 댓글 및 *Google Analytics*가 전부 내장되어 있습니다 ^^;&lt;/p&gt;
+&lt;p&gt;이 외에 jekyll 못지않게 매뉴얼이나 테마 등이 잘 되어 있습니다. 왠만한 테마는 &lt;em&gt;Disqus&lt;/em&gt; 댓글 및 &lt;em&gt;Google Analytics&lt;/em&gt; 가 전부 내장되어 있습니다 ^^;&lt;/p&gt;
 
 &lt;h3 id=&#34;hugo의-불편한-점&#34;&gt;Hugo의 불편한 점&lt;/h3&gt;
 
@@ -105,7 +105,7 @@
 &lt;code&gt;mklink /j &amp;quot;타겟폴더 경로(Public 폴더 경로)&amp;quot; &amp;quot;Github와 연결할 폴더 경로&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;em&gt;subtree&lt;/em&gt; 기능도 한 번 설정하면 간편해서 *Symlink*방법과 별차이가 없을 수 있는데요, *subtree*는 Hugo의 모든 파일이 일단 Github에 업로드 되기 때문에 블로그와 연관된 Repository가 중복으로 생성되는 점이 있으며, md파일로 생성한 블로그 포스트 raw 파일도 불필요하게 Github에 공개되는 점이 있습니다. 웹으로 생성된 페이지만 Github에 올리고 싶다면 &lt;em&gt;Symlink&lt;/em&gt; 방식이 가장 간편한 것 같습니다. ^^&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;subtree&lt;/em&gt; 기능도 한 번 설정하면 간편해서 &lt;em&gt;Symlink&lt;/em&gt; 방법과 별차이가 없을 수 있는데요, &lt;em&gt;subtree&lt;/em&gt; 는 Hugo의 모든 파일이 일단 Github에 업로드 되기 때문에 블로그와 연관된 Repository가 중복으로 생성되는 점이 있으며, md파일로 생성한 블로그 포스트 raw 파일도 불필요하게 Github에 공개되는 점이 있습니다. 웹으로 생성된 페이지만 Github에 올리고 싶다면 &lt;em&gt;Symlink&lt;/em&gt; 방식이 가장 간편한 것 같습니다. ^^&lt;/p&gt;
 </description>
     </item>
     
