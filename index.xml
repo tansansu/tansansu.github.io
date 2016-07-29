@@ -6,8 +6,38 @@
     <description>Recent content on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 05 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jul 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tansansu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deleting emails at once in Gmail</title>
+      <link>http://tansansu.github.io/blog/14/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/blog/14/</guid>
+      <description>&lt;p&gt;There are people that using the email service without removing the spam mails never.  And I&amp;rsquo;ve also seen the people&amp;rsquo;s phone screens that have a email icon with number &amp;lsquo;4276&amp;rsquo; at the top right. People like me who make categories and sort emails automatically was very annoyed seeing that situations.&lt;/p&gt;
+
+&lt;p&gt;I had known some true that there are many people who use Gmail with a lot of unread emails. The cause they are using in this way, they didn&amp;rsquo;t organize their emails, then they couldn&amp;rsquo;t manage it anymore. Then their Gmail was bombed by the numerous unread emails. I know. Because, Google does not provide the function that removes emails at once(In Gmail, we can see maximum 100 emails on our screen, so we can delete maximum 100 emails at once).&lt;/p&gt;
+
+&lt;p&gt;So, I introduce the awesome method to delete your all emails in Gmail service at once.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Search &amp;lsquo;&lt;em&gt;&amp;rsquo; on the search bar at top of the Gmail(&amp;rsquo;&lt;/em&gt;&amp;rsquo; means all characters when we search some words).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/bWWwMEB.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Then, Gmail shows you your all emails. But you can select only emails that were in the first page of the conversation list(My gmail was set up the fifty emails on one page but you can set up the number of emails on a page to max 100 emails). First, if you click the checkbox at left top of the email list, all emails on first page are selected. Then, a link to select all conversations is created.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/aQN61BV.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. If you click the link, the &amp;ldquo;all emails are selected&amp;rdquo; message is shown. And if you press the &amp;lsquo;recylce bin&amp;rsquo; button, your all emails will be deleted(A lot of time is consumed if you have numerous emails).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/H9B1bwg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Are you want to remove only unread emails? You could do by just type the &amp;lsquo;*&amp;rsquo; and &amp;lsquo;is:unread&amp;rsquo; in the search box. And repeat above steps.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/EoFb0uA.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Coursera Capstone Project 리뷰</title>
@@ -402,12 +432,16 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
 
 &lt;h5 id=&#34;experience&#34;&gt;Experience&lt;/h5&gt;
 
-&lt;h6 id=&#34;web-app-the-rediction-of-the-next-word-using-r-shiny&#34;&gt;(Web App) The rediction of the next word using R shiny&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The prediction of the next word using R shiny | &lt;a href=&#34;https://tansansu.shinyapps.io/Coursera_DDP_Project/&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Ridibooks&amp;rsquo;s Rainy day Event Notifier(Telegram Bot) | &lt;a href=&#34;https://telegram.me/ridi_1000p&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h5 id=&#34;certifications&#34;&gt;Certifications&lt;/h5&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Data Science Specialization&lt;/strong&gt;
+&lt;li&gt;&lt;strong&gt;Coursera Data Science Specialization&lt;/strong&gt;
 Coursera Verified Certificates | License: WGTAJS6ZRL23 | &lt;a href=&#34;https://www.coursera.org/account/accomplishments/specialization/certificate/WGTAJS6ZRL23&#34;&gt;Verify&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
