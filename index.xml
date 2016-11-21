@@ -6,8 +6,40 @@
     <description>Recent content on tansansu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Fri, 29 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://tansansu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mac에서 설치가 안되는 Library 설치하기</title>
+      <link>http://tansansu.github.io/blog/15/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/blog/15/</guid>
+      <description>&lt;p&gt;Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 &lt;code&gt;tm&lt;/code&gt; 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. &lt;code&gt;tm&lt;/code&gt; 패키지를 설치하려면 &lt;code&gt;slam&lt;/code&gt;이라는 dependency를 설치해야 하는데, &lt;code&gt;slam&lt;/code&gt; 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 &lt;code&gt;slam&lt;/code&gt; 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/Cf42Ub6.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mac에서 사용하는 &lt;code&gt;clang&lt;/code&gt; 컴파일러가 문제인가 싶어서 &lt;code&gt;gcc&lt;/code&gt;를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes&#34;&gt;https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Some packages built for OS X require a &#39;gfortran&#39; installation. You can download the default version of gfortran used for R from:
+
+https://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;gfortran&lt;/code&gt;이라는 컴파일러를 설치해야 한다.. -0-;;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gfortran&lt;/code&gt;을 위 링크에서 다운받아 설치하고 나서야 &lt;code&gt;slam&lt;/code&gt;과 &lt;code&gt;tm&lt;/code&gt;이 정상적으로 설치되었다.&lt;/p&gt;
+
+&lt;p&gt;Mac에서 설치 방법은 아래 방법을 참고.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 파일을 다운받은 후 터미널에서 해당 디렉토리에 가서 아래 명령어를 입력한다
+$ gunzip g77-bin-intel.tar.gz
+$ sudo tar -xvf g77-bin.tar -C /
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Deleting emails at once in Gmail</title>
@@ -412,48 +444,6 @@ Classmate라고 새로 생긴 메뉴가 있는데 수강생들을 지도에 표�
 &lt;p&gt;오후 6시 이후에 트래픽이 증가하는 것은 무엇 때문일까. 외국인 가입자에 의해 트래픽 사용량이 많다는 것으로 판단되었다면 이것도 쉽게 유추가 가능하다. 이 지역에 있는 외국인은 미군부대에서 근무하는 외국인일 가능성이 높다. 이들이 일과가 끝나는 6시 이후에 모바일 트래픽을 사용한다고 보면 될 것이다.&lt;/p&gt;
 
 &lt;p&gt;타지에서 외로움과 심심함을 해소하기 위해 자국 드라마나 TV를 보는 것은 어느 나라 사람이나 마찬가지인 모양이다.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>http://tansansu.github.io/about/</link>
-      <pubDate>Fri, 10 Feb 1984 00:00:00 +0000</pubDate>
-      
-      <guid>http://tansansu.github.io/about/</guid>
-      <description>
-
-&lt;h5 id=&#34;connect-with-me&#34;&gt;Connect with me&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;E-mail : freelunacy@gmail.com&lt;/li&gt;
-&lt;li&gt;github : &lt;a href=&#34;http://www.github.com/tansansu&#34;&gt;http://www.github.com/tansansu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&#34;experience&#34;&gt;Experience&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The prediction of the next word using R shiny | &lt;a href=&#34;https://tansansu.shinyapps.io/Coursera_DDP_Project/&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Ridibooks&amp;rsquo;s Rainy day Event Notifier(Telegram Bot) | &lt;a href=&#34;https://telegram.me/ridi_1000p&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&#34;certifications&#34;&gt;Certifications&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Coursera Data Science Specialization
-Coursera Verified Certificates | License: WGTAJS6ZRL23 | &lt;a href=&#34;https://www.coursera.org/account/accomplishments/specialization/certificate/WGTAJS6ZRL23&#34;&gt;Verify&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://kooc.kaist.ac.kr&#34;&gt;KOOC&lt;/a&gt; 인공지능 및 기계학습 개론 1 수료
-[2016-9] 인공지능 및 기계학습 개론 1 &lt;a href=&#34;https://www.evernote.com/l/ABjIfAaHSjtFGo-2hvNK9nVTHe7nyaZWCEk&#34;&gt;수료증&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&#34;education&#34;&gt;Education&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;서울과학종합대학원 빅데이터MBA (2015.03 ~ 2016.08)&lt;/li&gt;
-&lt;li&gt;광운대학교 전자통신공학과(2010년 졸업)&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

@@ -1,17 +1,11 @@
-
-
-
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            <title>Big Data - tansansu</title>
+            
+                <title>Mac에서 설치가 안되는 Library 설치하기</title>
+            
         
 
         <meta charset="utf-8" />
@@ -42,13 +36,24 @@
         
 
         
-        <meta property="og:title" content="Big Data" />
-<meta property="og:description" content="A Carbonated Thinking about the &#39;Data Science&#39;" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://tansansu.github.io/tags/big-data/" />
+
+  <meta name="twitter:card" content="summary"/>
 
 
-<meta property="og:updated_time" content="2015-11-20T00:00:00&#43;00:00"/>
+
+<meta name="twitter:title" content="Mac에서 설치가 안되는 Library 설치하기"/>
+<meta name="twitter:description" content="Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 tm 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. tm 패키지를 설치하려면 slam이라는 dependency를 설치해야 하는데, slam 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 slam 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다. Mac에서 사용하는 clang 컴파일러가 문제인가 싶어서 gcc를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다. https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes Some packages built for OS X require a &#39;gfortran&#39; installation."/>
+
+
+
+        <meta property="og:title" content="Mac에서 설치가 안되는 Library 설치하기" />
+<meta property="og:description" content="Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 tm 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. tm 패키지를 설치하려면 slam이라는 dependency를 설치해야 하는데, slam 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 slam 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다. Mac에서 사용하는 clang 컴파일러가 문제인가 싶어서 gcc를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다. https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes Some packages built for OS X require a &#39;gfortran&#39; installation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://tansansu.github.io/blog/15/" />
+
+
+<meta property="og:updated_time" content="2016-11-21T00:00:00&#43;00:00"/>
+
 
 
 
@@ -59,9 +64,16 @@
 
 
         
-<meta itemprop="name" content="Big Data">
-<meta itemprop="description" content="A Carbonated Thinking about the &#39;Data Science&#39;">
+<meta itemprop="name" content="Mac에서 설치가 안되는 Library 설치하기">
+<meta itemprop="description" content="Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 tm 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. tm 패키지를 설치하려면 slam이라는 dependency를 설치해야 하는데, slam 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 slam 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다. Mac에서 사용하는 clang 컴파일러가 문제인가 싶어서 gcc를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다. https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes Some packages built for OS X require a &#39;gfortran&#39; installation.">
 
+
+<meta itemprop="dateModified" content="2016-11-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="130">
+
+
+
+<meta itemprop="keywords" content="Analysis,MOOC,Opinion,TIPS,Big Data,Coursera,Data Science,GMail,Github,Hugo," />
 
         
 
@@ -105,6 +117,7 @@ ga('send', 'pageview');
         <div id="wrapper">
 
     
+    
 <header id="header">
     
         <h2><a href="/">tansansu&#39;s Home</i></a></h2>
@@ -136,6 +149,10 @@ ga('send', 'pageview');
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -224,19 +241,52 @@ ga('send', 'pageview');
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f&text=Mac%ec%97%90%ec%84%9c%20%ec%84%a4%ec%b9%98%ea%b0%80%20%ec%95%88%eb%90%98%eb%8a%94%20Library%20%ec%84%a4%ec%b9%98%ed%95%98%ea%b8%b0&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
         
         
-            
-        
-
-        
-            <article class="post">
+        <article class="post">
     <header>
     <div class="title">
         
-            <h2><a href="http://tansansu.github.io/blog/6/">기업에서 빅데이터 분석전문가를 양성하는 방법</a></h2>
+            <h1><a href="http://tansansu.github.io/blog/15/">Mac에서 설치가 안되는 Library 설치하기</a></h1>
+            
         
         
     </div>
@@ -246,24 +296,78 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2015-11-20'>
-            November 20, 2015</time>
+            datetime='2016-11-21'>
+            November 21, 2016</time>
         <span class="author"></span>
         
-            <p>2 minute read</p>
+            <p>1 minute read</p>
         
         
     </div>
 </header>
 
+
     
 
-    <p>국내에서 소위 빅데이터가 뜨고 있다고 하지만 몇몇 대기업을 제외하고는 빅데이터를 도입하고 활용하는 기업은 손에 꼽히는 것이 현실이다. 이러한 현상의 원인으로 빅데이터 분석 전문 인력이 없는 것이 가장 큰 원인으로 꼽히고 있다. 국내에 몇 안되는 데이터 분석 전문가를 영입하기 위해서는 대기업의 자본과 명성이 아니고서는 힘든 것이 사실이다. 이러한 문제를 해결하기 위해서 기업에서는 데이터 분석 전문가를 내부에서 양성하는 방안을 생각해 보아야 한다. 기업에서 빅데이터 분석전문가를 양성하기 위해서는 다음 3가지 요건을 갖추어야 한다. 빅데이터는 전사적인 프로젝트로 진행하여야 하므로 전문 조직이 있어야 한다.</p>
+    <div id="content">
+        <p>Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 <code>tm</code> 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. <code>tm</code> 패키지를 설치하려면 <code>slam</code>이라는 dependency를 설치해야 하는데, <code>slam</code> 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 <code>slam</code> 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다.</p>
+
+<p><img src="http://i.imgur.com/Cf42Ub6.png" alt="" /></p>
+
+<p>Mac에서 사용하는 <code>clang</code> 컴파일러가 문제인가 싶어서 <code>gcc</code>를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다.</p>
+
+<p><a href="https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes">https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes</a></p>
+
+<pre><code>Some packages built for OS X require a 'gfortran' installation. You can download the default version of gfortran used for R from:
+
+https://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
+</code></pre>
+
+<p><code>gfortran</code>이라는 컴파일러를 설치해야 한다.. -0-;;</p>
+
+<p><code>gfortran</code>을 위 링크에서 다운받아 설치하고 나서야 <code>slam</code>과 <code>tm</code>이 정상적으로 설치되었다.</p>
+
+<p>Mac에서 설치 방법은 아래 방법을 참고.</p>
+
+<pre><code># 파일을 다운받은 후 터미널에서 해당 디렉토리에 가서 아래 명령어를 입력한다
+$ gunzip g77-bin-intel.tar.gz
+$ sudo tar -xvf g77-bin.tar -C /
+</code></pre>
+
+    </div>
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f&text=Mac%ec%97%90%ec%84%9c%20%ec%84%a4%ec%b9%98%ea%b0%80%20%ec%95%88%eb%90%98%eb%8a%94%20Library%20%ec%84%a4%ec%b9%98%ed%95%98%ea%b8%b0&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
 
     <footer>
-        <ul class="actions">
-            <li><a href="http://tansansu.github.io/blog/6/" class="button big">Continue Reading</a></li>
-        </ul>
         <ul class="stats">
     
         
@@ -289,157 +393,43 @@ ga('send', 'pageview');
 
     
     
-        <li><a href='/categories/opinion'>Opinion</a></li>
+        <li><a href='/categories/tips'>TIPS</a></li>
     
 </ul>
 
     </footer>
 </article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://tansansu.github.io/blog/5/">Coursera Exploratory Data Analysis/Reproducible Research 리뷰</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2015-11-13'>
-            November 13, 2015</time>
-        <span class="author"></span>
-        
-            <p>2 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>이 리뷰를 쓰는 시점은 11월로 위 과목들을 모두 듣고 난 후에 한번에 쓰게 되었다. 기억이 조금 희미해 지는 시점이기도 해서 상세한 후기가 되지는 못할 것 같다. Exploratory Data Analysis 일명 EDA 라고 불리는 탐색적 데이터 분석에 대해서 학습하는 과목이다. 실제 본 분석에 앞서서 주어진 데이터의 생김새를 살펴보는 과정이다. 지난 번 강의(Getting and Cleaning Data)에 빠져 있었던 Roger Peng 교수가 다시 강사로 나왔다. 아시안계라서 그런지 발음도 영어 발음도 알아듣기 쉽고 Project과제에 대해서도 친절하게 안내해준 것이 참 맘에 든다 ㅎㅎ (심지어는 Project를 평가할 때에 점수를 깍는 것에 집중하지 말고 학습자에게 도움이 되는 조언을 하라는 것까지 Project 과제에 표시해 놓았다) 강의 내용의 70%는 Plotting에 관한 내용이다.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="http://tansansu.github.io/blog/5/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='/categories/mooc'>MOOC</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://tansansu.github.io/blog/4/">Coursera Getting and Cleaning Data 리뷰</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2015-08-29'>
-            August 29, 2015</time>
-        <span class="author"></span>
-        
-            <p>2 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>Coursera의 Data Science Specialisation 3번째 코스인 Getting and Cleaning Data 과목에 대한 리뷰입니다. 7월에 해당 과정을 마쳤는데 여러모로 바쁘게 시간을 보내서 8월 말이 되어서야 리뷰를 남긴다(그것도 휴가기간에 짬이 생겨서 쓸 수 있게 되었다). Coursetalks MOOCs라는 사이트와 qua.com의 게시글 을 보면 Coursera의 Data Science 과정에 대한 비판을 쉽게 찾을 수 있다. 첫번째와 두번째 과정을 만족스럽게 이수했던 입장에서 의아하기도 했고 앞으로 7개의 과목이 남은 시점에서 신경쓰이기도 해서 게시글을 살펴보기 시작했다(난 아무래도 팔랑귀인거 같다).</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="http://tansansu.github.io/blog/4/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='/categories/mooc'>MOOC</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-
-        
 <ul class="actions pagination">
     
-        <li><a href="/tags/big-data/page/3/"
-                class="button big previous">Previous Page</a></li>
+        <li><a href="http://tansansu.github.io/blog/14/"
+                class="button big previous">Deleting emails at once in Gmail</a></li>
     
 
     
-        <li><a href="/tags/big-data/page/5/"
-                class="button big next">Next Page</a></li>
-    
 </ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'tansans';
+    var disqus_identifier = 'http:\/\/tansansu.github.io\/blog\/15\/';
+    var disqus_title = 'Mac에서 설치가 안되는 Library 설치하기';
+    var disqus_url = 'http:\/\/tansansu.github.io\/blog\/15\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
 
     </div>
     
@@ -460,9 +450,6 @@ ga('send', 'pageview');
                 </header>
             
             <ul class="icons">
-                
-                    <li><a href="http://tansansu.github.io/tags/big-data/index.xml" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 
             </ul>
@@ -587,9 +574,6 @@ ga('send', 'pageview');
     
         <section id="footer">
             <ul class="icons">
-                
-                    <li><a href="http://tansansu.github.io/tags/big-data/index.xml" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 
                     

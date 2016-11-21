@@ -50,7 +50,7 @@
 <meta property="og:url" content="http://tansansu.github.io/categories/tips/" />
 
 
-<meta property="og:updated_time" content="2016-07-29T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2016-11-21T00:00:00&#43;00:00"/>
 
 
 
@@ -212,11 +212,11 @@ ga('send', 'pageview');
 
                 
                     <li>
-                        <a href="http://tansansu.github.io/blog/14/"><p>Deleting emails at once in Gmail</p></a>
+                        <a href="http://tansansu.github.io/blog/15/"><p>Mac에서 설치가 안되는 Library 설치하기</p></a>
                     </li>
                 
                     <li>
-                        <a href="http://tansansu.github.io/blog/13/"><p>Coursera Capstone Project 리뷰</p></a>
+                        <a href="http://tansansu.github.io/blog/14/"><p>Deleting emails at once in Gmail</p></a>
                     </li>
                 
             </ul>
@@ -230,6 +230,71 @@ ga('send', 'pageview');
     <div id="main">
         <h1>TIPS</h1>
         
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://tansansu.github.io/blog/15/">Mac에서 설치가 안되는 Library 설치하기</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2016-11-21'>
+            November 21, 2016</time>
+        <span class="author"></span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 tm 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. tm 패키지를 설치하려면 slam이라는 dependency를 설치해야 하는데, slam 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 slam 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다. Mac에서 사용하는 clang 컴파일러가 문제인가 싶어서 gcc를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다. <a href="https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes">https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes</a> Some packages built for OS X require a &lsquo;gfortran&rsquo; installation.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://tansansu.github.io/blog/15/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/tips'>TIPS</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
         
             <article class="post">
     <header>
@@ -361,71 +426,6 @@ ga('send', 'pageview');
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://tansansu.github.io/blog/8/">GMail에서 전체 메일 한 번에 지우기</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2015-12-20'>
-            December 20, 2015</time>
-        <span class="author"></span>
-        
-            <p>2 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>이메일에서 광고메일을 한 번도 삭제하지 않고 쓰는 사람들이 있다. 스마트폰의 이메일 아이콘 우측 상단에 &lsquo;4572&rsquo; 같은 숫자가 떠 있는 것처럼 읽지 않은 메일이 엄청나게 쌓여 있는 경우도 많이 보았다. 카테고리 혹은 라벨을 여러개로 만들어서 Inbox로 들어온 메일을 자동(혹은 수동)으로 분류해서 정리하는 나같은 Geek들은 지켜보는 것도 참기 힘든 상황이랄까. 그러다가 우연히 알게 된 사실인데, GMail을 쓰는 사람들 중에서 오래된 이메일을 묵힌 상태로 쓰고 있는 이유가 한번 정리를 안했더니 겉잡을 수 없어서 그대로 두는 사람도 있었다는 사실이다.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="http://tansansu.github.io/blog/8/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='/categories/tips'>TIPS</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -434,7 +434,8 @@ ga('send', 'pageview');
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
+        <li><a href="/categories/tips/page/2/"
+                class="button big next">Next Page</a></li>
     
 </ul>
 
@@ -483,13 +484,13 @@ ga('send', 'pageview');
                     <li>
                         <article>
                             <header>
-                                <h3><a href="http://tansansu.github.io/blog/14/">Deleting emails at once in Gmail</a></h3>
+                                <h3><a href="http://tansansu.github.io/blog/15/">Mac에서 설치가 안되는 Library 설치하기</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2016-07-29'>
-                                    July 29, 2016</time>
+                                    '2016-11-21'>
+                                    November 21, 2016</time>
                             </header>
                         </article>
                     </li>
@@ -497,13 +498,13 @@ ga('send', 'pageview');
                     <li>
                         <article>
                             <header>
-                                <h3><a href="http://tansansu.github.io/blog/13/">Coursera Capstone Project 리뷰</a></h3>
+                                <h3><a href="http://tansansu.github.io/blog/14/">Deleting emails at once in Gmail</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2016-06-05'>
-                                    June 5, 2016</time>
+                                    '2016-07-29'>
+                                    July 29, 2016</time>
                             </header>
                         </article>
                     </li>
@@ -551,7 +552,7 @@ ga('send', 'pageview');
                         <article>
                             <header>
                                 <a href="/categories/tips/">TIPS</a>
-                                <span style="float:right;">3</span>
+                                <span style="float:right;">4</span>
                             </header>
                         </article>
                     </li>

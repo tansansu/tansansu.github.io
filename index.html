@@ -42,7 +42,7 @@
 <meta property="og:url" content="http://tansansu.github.io/" />
 
 
-<meta property="og:updated_time" content="2016-07-29T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2016-11-21T00:00:00&#43;00:00"/>
 
 
 
@@ -209,11 +209,11 @@ ga('send', 'pageview');
 
                 
                     <li>
-                        <a href="http://tansansu.github.io/blog/14/"><p>Deleting emails at once in Gmail</p></a>
+                        <a href="http://tansansu.github.io/blog/15/"><p>Mac에서 설치가 안되는 Library 설치하기</p></a>
                     </li>
                 
                     <li>
-                        <a href="http://tansansu.github.io/blog/13/"><p>Coursera Capstone Project 리뷰</p></a>
+                        <a href="http://tansansu.github.io/blog/14/"><p>Deleting emails at once in Gmail</p></a>
                     </li>
                 
             </ul>
@@ -230,7 +230,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="http://tansansu.github.io/blog/14/">Deleting emails at once in Gmail</a></h2>
+            <h2><a href="http://tansansu.github.io/blog/15/">Mac에서 설치가 안되는 Library 설치하기</a></h2>
         
         
     </div>
@@ -240,11 +240,11 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2016-07-29'>
-            July 29, 2016</time>
+            datetime='2016-11-21'>
+            November 21, 2016</time>
         <span class="author"></span>
         
-            <p>2 minute read</p>
+            <p>1 minute read</p>
         
         
     </div>
@@ -254,27 +254,29 @@ ga('send', 'pageview');
     
 
     <div id="content">
-        <p>There are people that using the email service without removing the spam mails never.  And I&rsquo;ve also seen the people&rsquo;s phone screens that have a email icon with number &lsquo;4276&rsquo; at the top right. People like me who make categories and sort emails automatically was very annoyed seeing that situations.</p>
+        <p>Mac에서 MRO(Microsoft R Open) 3.3.1을 쓰고 있다. 텍스트마이닝 작업을 위해서 <code>tm</code> 패키지를 설치하려고 했는데 도무지 설치가 되지 않았다. <code>tm</code> 패키지를 설치하려면 <code>slam</code>이라는 dependency를 설치해야 하는데, <code>slam</code> 패키지는 소스코드를 내려받아 컴파일해서 설치하는 방식이였다. 이 <code>slam</code> 패키지가 컴파일 하다가 오류가 나는지 아래 같은 에러가 나면서 도무지 설치가 되지 않았다.</p>
 
-<p>I had known some true that there are many people who use Gmail with a lot of unread emails. The cause they are using in this way, they didn&rsquo;t organize their emails, then they couldn&rsquo;t manage it anymore. Then their Gmail was bombed by the numerous unread emails. I know. Because, Google does not provide the function that removes emails at once(In Gmail, we can see maximum 100 emails on our screen, so we can delete maximum 100 emails at once).</p>
+<p><img src="http://i.imgur.com/Cf42Ub6.png" alt="" /></p>
 
-<p>So, I introduce the awesome method to delete your all emails in Gmail service at once.</p>
+<p>Mac에서 사용하는 <code>clang</code> 컴파일러가 문제인가 싶어서 <code>gcc</code>를 새로 설치하고 별짓을 다해도 안되다가, 3일을 구글을 뒤져서 방법을 찾아냈다.</p>
 
-<p><strong>1. Search &lsquo;*&rsquo; on the search bar at top of the Gmail(&rsquo;*&rsquo; means all characters when we search some words).</strong></p>
+<p><a href="https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes">https://support.rstudio.com/hc/en-us/community/posts/222375268-slam-compile-question-on-Mac?sort_by=votes</a></p>
 
-<p><img src="https://i.imgur.com/bWWwMEB.png" alt="" /></p>
+<pre><code>Some packages built for OS X require a 'gfortran' installation. You can download the default version of gfortran used for R from:
 
-<p><strong>2. Then, Gmail shows you your all emails. But you can select only emails that were in the first page of the conversation list(My gmail was set up the fifty emails on one page but you can set up the number of emails on a page to max 100 emails). First, if you click the checkbox at left top of the email list, all emails on first page are selected. Then, a link to select all conversations is created.</strong></p>
+https://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2
+</code></pre>
 
-<p><img src="https://i.imgur.com/aQN61BV.png" alt="" /></p>
+<p><code>gfortran</code>이라는 컴파일러를 설치해야 한다.. -0-;;</p>
 
-<p><strong>3. If you click the link, the &ldquo;all emails are selected&rdquo; message is shown. And if you press the &lsquo;recylce bin&rsquo; button, your all emails will be deleted(A lot of time is consumed if you have numerous emails).</strong></p>
+<p><code>gfortran</code>을 위 링크에서 다운받아 설치하고 나서야 <code>slam</code>과 <code>tm</code>이 정상적으로 설치되었다.</p>
 
-<p><img src="https://i.imgur.com/H9B1bwg.png" alt="" /></p>
+<p>Mac에서 설치 방법은 아래 방법을 참고.</p>
 
-<p><strong>4. Are you want to remove only unread emails? You could do by just type the &lsquo;*&rsquo; and &lsquo;is:unread&rsquo; in the search box. And repeat above steps.</strong></p>
-
-<p><img src="https://i.imgur.com/EoFb0uA.png" alt="" /></p>
+<pre><code># 파일을 다운받은 후 터미널에서 해당 디렉토리에 가서 아래 명령어를 입력한다
+$ gunzip g77-bin-intel.tar.gz
+$ sudo tar -xvf g77-bin.tar -C /
+</code></pre>
 
     </div>
 
@@ -283,25 +285,25 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f&text=Deleting%20emails%20at%20once%20in%20Gmail&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f&text=Mac%ec%97%90%ec%84%9c%20%ec%84%a4%ec%b9%98%ea%b0%80%20%ec%95%88%eb%90%98%eb%8a%94%20Library%20%ec%84%a4%ec%b9%98%ed%95%98%ea%b8%b0&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -343,8 +345,8 @@ ga('send', 'pageview');
 </article>
 <ul class="actions pagination">
     
-        <li><a href="http://tansansu.github.io/blog/13/"
-                class="button big previous">Coursera Capstone Project 리뷰</a></li>
+        <li><a href="http://tansansu.github.io/blog/14/"
+                class="button big previous">Deleting emails at once in Gmail</a></li>
     
 
     
@@ -357,9 +359,9 @@ ga('send', 'pageview');
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'tansans';
-    var disqus_identifier = 'http:\/\/tansansu.github.io\/blog\/14\/';
-    var disqus_title = 'Deleting emails at once in Gmail';
-    var disqus_url = 'http:\/\/tansansu.github.io\/blog\/14\/';
+    var disqus_identifier = 'http:\/\/tansansu.github.io\/blog\/15\/';
+    var disqus_title = 'Mac에서 설치가 안되는 Library 설치하기';
+    var disqus_url = 'http:\/\/tansansu.github.io\/blog\/15\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -383,25 +385,25 @@ ga('send', 'pageview');
             
 
 
-<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f&text=Deleting%20emails%20at%20once%20in%20Gmail&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f&text=Mac%ec%97%90%ec%84%9c%20%ec%84%a4%ec%b9%98%ea%b0%80%20%ec%95%88%eb%90%98%eb%8a%94%20Library%20%ec%84%a4%ec%b9%98%ed%95%98%ea%b8%b0&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f14%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2ftansansu.github.io%2fblog%2f15%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -456,13 +458,13 @@ ga('send', 'pageview');
                     <li>
                         <article>
                             <header>
-                                <h3><a href="http://tansansu.github.io/blog/14/">Deleting emails at once in Gmail</a></h3>
+                                <h3><a href="http://tansansu.github.io/blog/15/">Mac에서 설치가 안되는 Library 설치하기</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2016-07-29'>
-                                    July 29, 2016</time>
+                                    '2016-11-21'>
+                                    November 21, 2016</time>
                             </header>
                         </article>
                     </li>
@@ -470,13 +472,13 @@ ga('send', 'pageview');
                     <li>
                         <article>
                             <header>
-                                <h3><a href="http://tansansu.github.io/blog/13/">Coursera Capstone Project 리뷰</a></h3>
+                                <h3><a href="http://tansansu.github.io/blog/14/">Deleting emails at once in Gmail</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2016-06-05'>
-                                    June 5, 2016</time>
+                                    '2016-07-29'>
+                                    July 29, 2016</time>
                             </header>
                         </article>
                     </li>
@@ -524,7 +526,7 @@ ga('send', 'pageview');
                         <article>
                             <header>
                                 <a href="/categories/tips/">TIPS</a>
-                                <span style="float:right;">3</span>
+                                <span style="float:right;">4</span>
                             </header>
                         </article>
                     </li>
