@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Brilliant Lime</title>
+    <link>http://tansansu.github.io/categories/</link>
+    <description>Recent content in Categories on Brilliant Lime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 16 Dec 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tansansu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opinion</title>
+      <link>http://tansansu.github.io/categories/opinion/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/categories/opinion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIPS</title>
+      <link>http://tansansu.github.io/categories/tips/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MOOC</title>
+      <link>http://tansansu.github.io/categories/mooc/</link>
+      <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/categories/mooc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>http://tansansu.github.io/categories/analysis/</link>
+      <pubDate>Thu, 21 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/categories/analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
