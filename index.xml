@@ -221,7 +221,7 @@ Coursera의 &amp;lsquo;R Programming&amp;rsquo; 강의는 R이라는 프로그�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tansansu.github.io/mparkerupdate/</guid>
-      <description>33 </description>
+      <description>34 </description>
     </item>
     
     <item>
@@ -272,7 +272,12 @@ App Store</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tansansu.github.io/mparkernew/</guid>
-      <description>v1.2.2 다크모드 설정 초기화되는 버그 수정
+      <description>v1.2.3 말머리 검색 기능 추가
+커스텀 말머리 적용 기능 추가
+이미지 확대보기 UI 개선
+본인 게시물 삭제 기능 추가
+버그 수정 및 다크모드 UI 개선
+v1.2.2 다크모드 설정 초기화되는 버그 수정
 앱 신규버전 추가 시 알림 설정 추가
 다크모드 UI 개선
 v1.2.1 자동로그인 기능 추가(로그인 팝업창)
@@ -280,12 +285,7 @@ v1.2.1 자동로그인 기능 추가(로그인 팝업창)
 다크모드 추가
 댓글 수정 시 텍스트 유지
 캐시 삭제를 통한 앱 최적화 기능 추가
-버그 수정, UI 개선 및 최적화
-v1.2.0 이미지 확대/저장 기능 추가(이미지 클릭)
-유저 게시물, 가입일 보기 추가(아바타 클릭)
-건의사항 게시판 추가
-v1.1.9 버그 수정 및 앱 안정화
-v1.1.8 키워드 필터링 기능 추가</description>
+버그 수정, UI 개선 및 최적화</description>
     </item>
     
     <item>
