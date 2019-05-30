@@ -20,29 +20,18 @@
   
   <url>
     <loc>http://tansansu.github.io/blog/</loc>
-    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://tansansu.github.io/blog/16/</loc>
-    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://tansansu.github.io/</loc>
-    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://tansansu.github.io/categories/</loc>
-    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://tansansu.github.io/categories/opinion/</loc>
-    <lastmod>2016-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,6 +135,12 @@
   </url>
   
   <url>
+    <loc>http://tansansu.github.io/categories/opinion/</loc>
+    <lastmod>2015-11-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://tansansu.github.io/blog/6/</loc>
     <lastmod>2015-11-20T00:00:00+00:00</lastmod>
   </url>
@@ -168,17 +163,6 @@
   <url>
     <loc>http://tansansu.github.io/blog/3/</loc>
     <lastmod>2015-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tansansu.github.io/categories/analysis/</loc>
-    <lastmod>2015-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://tansansu.github.io/blog/1/</loc>
-    <lastmod>2015-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
