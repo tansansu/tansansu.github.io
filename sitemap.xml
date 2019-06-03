@@ -20,30 +20,35 @@
   
   <url>
     <loc>http://tansansu.github.io/blog/</loc>
-    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://tansansu.github.io/</loc>
-    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://tansansu.github.io/categories/</loc>
-    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tansansu.github.io/categories/tips/</loc>
+    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tansansu.github.io/blog/16/</loc>
+    <lastmod>2019-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://tansansu.github.io/blog/15/</loc>
     <lastmod>2016-11-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tansansu.github.io/categories/tips/</loc>
-    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

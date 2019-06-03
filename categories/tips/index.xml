@@ -6,10 +6,21 @@
     <description>Recent content in TIPS on Brilliant Lime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 21 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tansansu.github.io/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>android폰 앱 광고 제거 with ADGUARD</title>
+      <link>http://tansansu.github.io/blog/16/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/blog/16/</guid>
+      <description>ADGUARD를 사용하면 웹서핑할 때 브라우저에 보이는 광고나 개인정보 트래킹 뿐만 아니라 앱에 표시되는 광고도 차단이 가능합니다. 기본적으로 ADGUARD의 광고차단 리스트를 구독하고 인터넷의 여러 리스트를 구독하는 것으로 많은 광고/트래킹 차단이 가능한데 그래도 사라지지 않는 앱의 광고는 아래 방법으로 대부분 차단이 가능합니다. 아래 내용은 ADGUARD의 사용자 필터를 추가하는 초보적인 방법이며, 고급 기능은 무궁무진한 점 참고하시면 좋을 거 같습니다.
+ ADGUARD앱 실행 &amp;gt; 필터링 로그에서 앱들의 트래픽 확인
+먼저 ADGUARD앱을 통해 dns로 가는 패킷을 확인하기 위해서 필터링 로그 메뉴에서 현재 로그 기록을 전부 지워줍니다.</description>
+    </item>
     
     <item>
       <title>Mac에서 설치가 안되는 R Library 설치하기</title>

@@ -6,7 +6,7 @@
     <description>Recent content on Brilliant Lime</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 21 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://tansansu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -38,8 +38,7 @@
       
       <guid>http://tansansu.github.io/mparkerguide/</guid>
       <description>1. 로그인 1-1. 자동 로그인 자동로그인 기능을 활성화하면 앱을 다시 시작할 때 로그인된 상태로 시작할 수 있습니다.
- 사이드 메뉴에서 로그인창을 띄워서 자동로그인 항목을 체크하여 활성화 자동로그인을 해제할 경우에는 마이메뉴에 들어가서 로그아웃 후에 다시 로그인 창에서 자동로그인 항목 체크해제  1-2. 소셜 로그인 카카오, 네이버 로그인을 통한 소셜로그인 기능은 향후 제공 예정입니다.
-2. 유저 메뉴 2-1. 유저 차단 유저 차단에는 아이디 차단과 슈퍼블로킹 2가지 방법이 있습니다. 아이디 차단은 엠팍사이트에서 제공하는 방법으로 최대 차단가능한 개수가 있습니다.</description>
+ 사이드 메뉴에서 로그인창을 띄워서 자동로그인 항목을 체크하여 활성화 자동로그인을 해제할 경우에는 마이메뉴에 들어가서 로그아웃 후에 다시 로그인 창에서 자동로그인 항목 체크해제  1-2. 소셜 로그인  카카오 소셜 로그인 : 사이드 메뉴의 로그인 버튼을 통해 로그인 페이지로 가면 카카오 소셜 로그인 버튼이 보이며, 해당 버튼을 통해 카카오 계정으로 로그인해 MLBPARKER앱을 이용할 수 있습니다.</description>
     </item>
     
     <item>
@@ -49,6 +48,17 @@
       
       <guid>http://tansansu.github.io/individual/</guid>
       <description>Brilliant Lime의 Latent CLUB, 라인사커, MLBPARKER, 커뮤니티 옵저버 앱은 어떠한 개인정보도 저장하거나 취급하지 않습니다.</description>
+    </item>
+    
+    <item>
+      <title>android폰 앱 광고 제거 with ADGUARD</title>
+      <link>http://tansansu.github.io/blog/16/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tansansu.github.io/blog/16/</guid>
+      <description>ADGUARD를 사용하면 웹서핑할 때 브라우저에 보이는 광고나 개인정보 트래킹 뿐만 아니라 앱에 표시되는 광고도 차단이 가능합니다. 기본적으로 ADGUARD의 광고차단 리스트를 구독하고 인터넷의 여러 리스트를 구독하는 것으로 많은 광고/트래킹 차단이 가능한데 그래도 사라지지 않는 앱의 광고는 아래 방법으로 대부분 차단이 가능합니다. 아래 내용은 ADGUARD의 사용자 필터를 추가하는 초보적인 방법이며, 고급 기능은 무궁무진한 점 참고하시면 좋을 거 같습니다.
+ ADGUARD앱 실행 &amp;gt; 필터링 로그에서 앱들의 트래픽 확인
+먼저 ADGUARD앱을 통해 dns로 가는 패킷을 확인하기 위해서 필터링 로그 메뉴에서 현재 로그 기록을 전부 지워줍니다.</description>
     </item>
     
     <item>
@@ -202,7 +212,7 @@ Coursera의 &amp;lsquo;R Programming&amp;rsquo; 강의는 R이라는 프로그�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tansansu.github.io/mparkerupdate/</guid>
-      <description>35 </description>
+      <description>36 </description>
     </item>
     
     <item>
@@ -253,7 +263,9 @@ App Store</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tansansu.github.io/mparkernew/</guid>
-      <description>v1.2.4 글쓸 때 선택한 말머리가 게시판에 적용되는 버그 수정
+      <description>v1.2.5 &amp;lsquo;카카오&amp;rsquo; 소셜 로그인 기능 추가(베타, 버그 제보 요청)
+앱 최적화 및 UI 버그 수정
+v1.2.4 글쓸 때 선택한 말머리가 게시판에 적용되는 버그 수정
 특정 단말 이미지 저장 안되는 버그 수정
 앱 업데이트 알림 설정의 기본값 &amp;lsquo;알림&amp;rsquo;으로 변경
 UI 개선 및 앱 최적화
@@ -262,9 +274,7 @@ v1.2.3 말머리 검색 기능 추가
 이미지 확대보기 UI 개선
 본인 게시물 삭제 기능 추가
 버그 수정 및 다크모드 UI 개선
-v1.2.2 다크모드 설정 초기화되는 버그 수정
-앱 신규버전 추가 시 알림 설정 추가
-다크모드 UI 개선</description>
+v1.2.2 다크모드 설정 초기화되는 버그 수정</description>
     </item>
     
     <item>
