@@ -212,7 +212,7 @@ Coursera의 &amp;lsquo;R Programming&amp;rsquo; 강의는 R이라는 프로그�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tansansu.github.io/mparkerupdate/</guid>
-      <description>37 </description>
+      <description>38 </description>
     </item>
     
     <item>
@@ -263,17 +263,17 @@ App Store</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tansansu.github.io/mparkernew/</guid>
-      <description>v1.2.6 커스텀 말머리 표시 개선
+      <description>v1.2.7 이미지 확대 후 확대이미지로 고정되도록 수정
+게시물 안에서 당겨서 새로고침 기능 추가
+테마 UI 개선, OLED BLACK 테마 추가
+버그 개선 및 앱 안정화
+v1.2.6 커스텀 말머리 표시 개선
 이미지 확대 시 스크린 전체로 확대되도록 개선
 일부 동영상 재생 안되는 버그 개선
 버그 수정 및 앱 안정성 개선
 v1.2.5 &amp;lsquo;카카오&amp;rsquo; 소셜 로그인 기능 추가(베타, 버그 제보 요청)
 앱 최적화 및 UI 버그 수정
-v1.2.4 글쓸 때 선택한 말머리가 게시판에 적용되는 버그 수정
-특정 단말 이미지 저장 안되는 버그 수정
-앱 업데이트 알림 설정의 기본값 &amp;lsquo;알림&amp;rsquo;으로 변경
-UI 개선 및 앱 최적화
-v1.2.3 말머리 검색 기능 추가</description>
+v1.2.4 글쓸 때 선택한 말머리가 게시판에 적용되는 버그 수정</description>
     </item>
     
     <item>
